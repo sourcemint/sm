@@ -45,9 +45,6 @@ describe("sm-cli", function() {
 						EXPECT(result).to.be.a("object");
 						EXPECT(result.name).to.equal("sm-tests");
 						EXPECT(result.status).to.be.a("object");
-
-//console.log("status tree", result);
-
 						return done();
 					}).fail(done);
 		        });

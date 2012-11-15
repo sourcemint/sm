@@ -9,4 +9,9 @@ For usage see:
 
 	sm -h
 
-The most important command is `sm status` to see the current state of the package.
+
+Notes
+=====
+
+  * The most important command is `sm status` to see the current state of a package and its dependencies.
+  * `sm` always treats the `cwd/pwd` as the root of the package.
