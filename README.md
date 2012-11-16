@@ -19,3 +19,4 @@ For information on:
 
   * How to setup a package to resolve dependencies via `sm` see [Package Descriptor](https://github.com/sourcemint/sm/blob/master/docs/PackageDescriptor.md).
   * How to manage a package from the command line using `sm` see [Command Line](https://github.com/sourcemint/sm/blob/master/docs/CommandLine.md).
+  * How to file issues and otherwise contribute see [Contribute](https://github.com/sourcemint/sm/blob/master/docs/Contribute.md).
