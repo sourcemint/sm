@@ -25,7 +25,7 @@ The above is loosely based on the following specifications:
   * [CommonJS Packages/1.1 (draft)](http://wiki.commonjs.org/wiki/Packages/1.1)
   * [CommonJS Packages/Mappings/C (proposal)](http://wiki.commonjs.org/wiki/Packages/Mappings/C)
 
-Once a package has a *package descriptor* it can be maintained via the `sm` [Command Line Tool]([./CommandLine.md]) or
+Once a package has a *package descriptor* it can be maintained via the `sm` [Command Line Tool](./CommandLine.md) or
 the `sm` [NodeJS Module](./NodejsModule.md).
 
 
