@@ -18,4 +18,4 @@ Rules for packages
   * Every package must have its own namespace in every respect.
   * Packages must be versioned according to [semver](http://semver.org/).
 
-See [Package Descriptor](./PackageDescriptor.md) and [Package Environment](./PackageEnvironment.md) for how this is implemented in Sourcemint.
+See [Package Descriptor](./PackageDescriptor.md) and [Package Environment](./PackageEnvironment.md) for how this is implemented in `sm`.
