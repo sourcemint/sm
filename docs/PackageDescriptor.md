@@ -10,10 +10,10 @@ The following declarations are recognized:
 		"version": "<semver>",
 		"pm": "<name>",
 		"help": {
-            "web": "<uri>",
-            "cli": "./<path>"
-   		},
-   		"dependencies": {},
+      "web": "<uri>",
+      "cli": "./<path>"
+   	},
+   	"dependencies": {},
 		"devDependencied": {},
 		"mappings": {},
 		"devMappings": {},
