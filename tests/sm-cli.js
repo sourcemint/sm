@@ -37,7 +37,7 @@ describe("sm-cli", function() {
 
 			describe("with args:", function() {
 
-		        it("`status --format JSON` should return status tree", function(done) {
+		        it("`--format JSON status` should return status tree", function(done) {
 		        	return callCli([
 						"--format", "JSON",
 		        		"status"
@@ -61,6 +61,18 @@ describe("sm-cli", function() {
 					}).fail(done);
 		        });
 */
+		        it("`--format JSON info chai` should return info for package", function(done) {
+		        	return callCli([
+						"--format", "JSON",
+		        		"info",
+		        		"chai"
+					]).then(function(result) {
+						EXPECT(result).to.be.a("array");
+						EXPECT(result).to.have.length(1);
+						EXPECT(result[0].name).to.equal("chai");
+						return done();
+					}).fail(done);
+		        });
 		    });
 	    });
 	});    

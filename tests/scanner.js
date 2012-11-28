@@ -49,6 +49,18 @@ describe("scanner", function() {
 	        });
 */
 
+	        it("with option `select: \".\"` should return array containing the 'sm-tests' package", function(done) {
+	        	var api = SCANNER.for(__dirname).fsTree({
+	        		select: "."
+	        	});
+				Q.when(api, function(packages) {					
+					EXPECT(packages).to.be.a("array");
+					EXPECT(packages).to.have.length(1);
+					EXPECT(packages[0].name).to.equal("sm-tests");
+					return done();
+				}).fail(done);
+	        });
+
 	        it("with option `select: \"package1\"` should return array containing the 'package1' package", function(done) {
 	        	var api = SCANNER.for(__dirname).fsTree({
 	        		select: "package1"
