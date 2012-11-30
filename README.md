@@ -11,9 +11,9 @@ sm
   * Sponsor: [Sourcemint](http://sourcemint.com/)
   * Mailing list: [groups.google.com/group/sourcemint](http://groups.google.com/group/sourcemint)
 
-`sm` is a tool to resolve, download and install dependencies for a package. It is written in JavaScript, runs on [NodeJS](http://nodejs.org/) and is the heart of the [Sourcemint](http://sourcemint.org) system.
+`sm` is a tool to resolve, download, install and work with dependencies for a package. It is written in JavaScript, runs on [NodeJS](http://nodejs.org/) and is the heart of the [Sourcemint](http://sourcemint.org) system.
 
-`sm` brings with it some [Rules](./docs/Philosophy.md) for how package management should be done and an ecosystem of existing packages.
+`sm` brings with it some [Rules](./docs/Rules.md) for how package management should be done and an ecosystem of existing packages.
 
 For information on:
 
