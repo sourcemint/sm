@@ -1,7 +1,7 @@
 Terminology
 ===========
 
-The Sourcemint terminology is inspired by and compatible with [CommonJS](http://commonjs.org) and intended to be distinct, yet inclusive of existing communities.
+The Sourcemint terminology is inspired by and compatible with [CommonJS](http://commonjs.org) and intended to be distinct from, yet inclusive of existing communities.
 
 Context abstractions:
 
