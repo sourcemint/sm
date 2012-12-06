@@ -1,4 +1,5 @@
 
+const PATH = require("path");
 const RUN = require("./_run");
 const EXPECT = require("chai").expect;
 const Q = require("sourcemint-util-js/lib/q");
@@ -67,6 +68,20 @@ describe("sm-cli", function() {
 					}).fail(done);
 		        });
 */
+
+		        it("`--format JSON status --dir ./tests` should return status tree for `tests` dir", function(done) {
+		        	return callCli([
+						"--format", "JSON",
+		        		"status",
+		        		"--dir", __dirname
+					], PATH.join(__dirname, "..")).then(function(result) {
+						EXPECT(result).to.be.a("object");
+						EXPECT(result.name).to.equal("sm-tests");
+						EXPECT(result.status).to.be.a("object");
+						return done();
+					}).fail(done);
+		        });
+
 		        it("`--format JSON info chai` should return info for package", function(done) {
 		        	return callCli([
 						"--format", "JSON",
