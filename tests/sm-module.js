@@ -1,4 +1,5 @@
 
+const RUN = require("./_run");
 const EXPECT = require("chai").expect;
 const Q = require("sourcemint-util-js/lib/q");
 const SM = require("../lib/sm");
@@ -13,15 +14,17 @@ describe("sm-module", function() {
     describe(":for()", function() {
 
 	    it('should return object', function() {
-	    	var api = SM.for(__dirname);
+	    	var api = SM.for(__dirname, RUN.getBaseOptions());
 			EXPECT(api).to.be.an("object");
 			EXPECT(api).to.respondTo("require");
 	    });
 
 	    describe(":require()", function() {
 
+			this.timeout(10 * 1000);
+
 	        it('should fire callback', function(done) {
-				SM.for(__dirname).require("package1/lib/module1", function(err, api) {
+				SM.for(__dirname, RUN.getBaseOptions()).require("package1/module1", function(err, api) {
 					if (err) return done(err);
 					EXPECT(api).to.be.a("object");
 					EXPECT(api.id).to.be.a("string");
@@ -31,10 +34,19 @@ describe("sm-module", function() {
 	        });
 
 	        it('should return promise', function(done) {
-				SM.for(__dirname).require("package1/lib/module1").then(function(api) {
+				SM.for(__dirname, RUN.getBaseOptions()).require("package1/module1").then(function(api) {
 					EXPECT(api).to.be.a("object");
 					EXPECT(api.id).to.be.a("string");
 					EXPECT(api.id).to.be.equal("module1");
+					return done();
+				}).fail(done);
+	        });
+
+	        it('should return `err` for undeclared package', function(done) {
+				SM.for(__dirname, RUN.getBaseOptions()).require("undeclared/module1", function(err, api) {
+					EXPECT(err.message).to.match(/Package not found and not declared!/);
+					EXPECT(err.stack).to.be.a("string");
+					EXPECT(api).to.eql(undefined);
 					return done();
 				}).fail(done);
 	        });

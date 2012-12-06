@@ -36,6 +36,13 @@ exports.main = function(callback) {
 	}
 }
 
+exports.getBaseOptions = function() {
+	return {
+		verbose: true,
+		debug: true
+	};
+}
+
 
 if (require.main === module) {
 	exports.main(function(err) {

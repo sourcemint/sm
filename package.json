@@ -36,7 +36,10 @@
         "sourcemint-util-js": "0.2.x",
         "commander": "1.0.x",
         "graceful-fs": "1.1.x",
-        "semver": "1.1.x"
+        "semver": "1.1.x",
+        "http-proxy": "0.8.x",
+        "mappings": "0.2.x",
+        "winston": "0.6.x"
     },
     "mappings": {
         "sm-plugin": "github.com/sourcemint/sm-plugin/~0.1"

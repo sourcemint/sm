@@ -18,3 +18,16 @@ Implementation abstractions:
   * **Dependency** - A *Package* used by a more abstract *Package*.
   * **Patch** - An actualized change to a *Package*.
 
+Workflow abstractions:
+
+  * **Switch** - (`sm switch -r` switches to `sm switch -p remote`)
+  * **Clone** - 
+  * **Status** - 
+  * **Install** - 
+  * **Update** - 
+  * **Edit** - 
+  * **Save** - Commit changes and freeze dependency tree by writing `sm-catalog.json`.
+  * **Bump** - 
+  * **Publish** - 
+  * **Deploy** - 
+  * **Report** - 

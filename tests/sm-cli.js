@@ -1,4 +1,5 @@
 
+const RUN = require("./_run");
 const EXPECT = require("chai").expect;
 const Q = require("sourcemint-util-js/lib/q");
 const SM_CLI = require("../lib/sm-cli")
@@ -20,7 +21,12 @@ describe("sm-cli", function() {
 
 		describe(":respond()", function() {
 
+			this.timeout(10 * 1000);
+
 			function callCli(args, projectRootPath) {
+				var options = RUN.getBaseOptions();
+				if (options.debug) args.push("--debug");
+				if (options.verbose) args.push("--verbose");
 				return SM_CLI.for(projectRootPath || __dirname).respond(["", ""].concat(args));
 			}
 
