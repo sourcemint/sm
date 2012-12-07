@@ -45,6 +45,6 @@
         "sm-plugin": "github.com/sourcemint/sm-plugin/~0.1"
     },
     "scripts": {
-        "test": "node tests/_run"
+        "test": "node tests/_run.js"
     }
 }
