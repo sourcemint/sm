@@ -1,4 +1,5 @@
 
+const PATH = require("path");
 const RUN = require("./_run");
 const EXPECT = require("chai").expect;
 const Q = require("sourcemint-util-js/lib/q");
@@ -17,6 +18,28 @@ describe("sm-module", function() {
 	    	var api = SM.for(__dirname, RUN.getBaseOptions());
 			EXPECT(api).to.be.an("object");
 			EXPECT(api).to.respondTo("require");
+	    });
+
+	    describe(":resolve()", function() {
+
+			this.timeout(10 * 1000);
+
+	        it('should fire callback', function(done) {
+				SM.for(__dirname, RUN.getBaseOptions()).resolve("package1/module1", function(err, path) {
+					if (err) return done(err);
+					EXPECT(path).to.be.a("string");
+					EXPECT(path).to.be.equal(PATH.join(__dirname, "node_modules/package1/lib/module1.js"));
+					return done();
+				}).fail(done);
+	        });
+
+	        it('should return promise', function(done) {
+				SM.for(__dirname, RUN.getBaseOptions()).resolve("package1/module1").then(function(path) {
+					EXPECT(path).to.be.a("string");
+					EXPECT(path).to.be.equal(PATH.join(__dirname, "node_modules/package1/lib/module1.js"));
+					return done();
+				}).fail(done);
+	        });
 	    });
 
 	    describe(":require()", function() {

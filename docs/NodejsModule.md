@@ -12,6 +12,12 @@ It can be used to
 Resolve dependencies dynamically
 --------------------------------
 
+	require("sm").for("<packageRoot>").resolve("<alias>/<moduleId>").then(function(path) {
+		// Use `path`.
+	}, function(err) {
+		// Error while making dependency available.
+	});
+
 	require("sm").for("<packageRoot>").require("<alias>/<moduleId>").then(function(api) {
 		// Use `api`.
 	}, function(err) {
