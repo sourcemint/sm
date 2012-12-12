@@ -22,7 +22,7 @@ describe("sm-cli", function() {
 
 		describe(":respond()", function() {
 
-			this.timeout(10 * 1000);
+			this.timeout(30 * 1000);
 
 			function callCli(args, projectRootPath) {
 				var options = RUN.getBaseOptions();
@@ -92,6 +92,37 @@ describe("sm-cli", function() {
 						EXPECT(result).to.have.length(1);
 						EXPECT(result[0].name).to.equal("chai");
 						return done();
+					}).fail(done);
+		        });
+
+		        it("`init --delete https://github.com/sourcemint/test-package2` should download package in read mode and install dependencies", function(done) {
+		        	return callCli([
+						"init",
+						"--dir", PATH.join(__dirname, "tmp/sm-cli-clone-1"),
+						"--delete",
+						"https://github.com/sourcemint/test-package2"
+					]).then(function(result) {
+						EXPECT(PATH.existsSync(PATH.join(__dirname, "tmp/sm-cli-clone-1/.git"))).to.equal(false);
+						require(PATH.join(__dirname, "tmp/sm-cli-clone-1/test.js")).main(function(err) {
+							EXPECT(err).to.equal(null);
+							return done();
+						});
+					}).fail(done);
+		        });
+
+		        it("`init --dev --delete https://github.com/sourcemint/test-package2` should download package and write mode and install dependencies", function(done) {
+		        	return callCli([
+						"init",
+						"--dev",
+						"--dir", PATH.join(__dirname, "tmp/sm-cli-clone-2"),
+						"--delete",
+						"https://github.com/sourcemint/test-package2"
+					]).then(function(result) {
+						EXPECT(PATH.existsSync(PATH.join(__dirname, "tmp/sm-cli-clone-2/.git"))).to.equal(true);
+						require(PATH.join(__dirname, "tmp/sm-cli-clone-1/test.js")).main(function(err) {
+							EXPECT(err).to.equal(null);
+							return done();
+						});
 					}).fail(done);
 		        });
 		    });

@@ -51,7 +51,7 @@ describe("sm-module", function() {
 					if (err) return done(err);
 					EXPECT(api).to.be.a("object");
 					EXPECT(api.id).to.be.a("string");
-					EXPECT(api.id).to.be.equal("module1");
+					EXPECT(api.id).to.be.equal("pkg1-module1");
 					return done();
 				}).fail(done);
 	        });
@@ -60,7 +60,7 @@ describe("sm-module", function() {
 				SM.for(__dirname, RUN.getBaseOptions()).require("package1/module1").then(function(api) {
 					EXPECT(api).to.be.a("object");
 					EXPECT(api.id).to.be.a("string");
-					EXPECT(api.id).to.be.equal("module1");
+					EXPECT(api.id).to.be.equal("pkg1-module1");
 					return done();
 				}).fail(done);
 	        });

@@ -6,6 +6,7 @@ const PATH = require("path");
 const FS = require("fs");
 const CONSOLE = require("sourcemint-util-js/lib/console");
 const ERROR = require("sourcemint-util-js/lib/error");
+const UTIL = require("sourcemint-util-js/lib/util");
 // @see https://github.com/visionmedia/mocha/wiki/Using-mocha-programmatically
 const MOCHA = require("mocha");
 const CHAI = require("chai");
@@ -14,6 +15,10 @@ const CHAI = require("chai");
 
 exports.main = function(callback) {
 	try {
+
+    	if (!PATH.existsSync(PATH.join(__dirname, "tmp"))) {
+    		FS.mkdirSync(PATH.join(__dirname, "tmp"));
+    	}
 
 		CHAI.Assertion.includeStack = true;
 
@@ -36,11 +41,15 @@ exports.main = function(callback) {
 	}
 }
 
-exports.getBaseOptions = function() {
-	return {
+exports.getBaseOptions = function(extra) {
+	var options = {
 		verbose: true,
 		debug: true
 	};
+	if (extra) {
+		UTIL.update(options, extra);
+	}
+	return options;
 }
 
 
