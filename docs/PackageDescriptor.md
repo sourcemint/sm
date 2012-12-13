@@ -13,13 +13,20 @@ The following declarations are recognized:
       "web": "<uri>",
       "cli": "./<path>"
    	},
-   	"dependencies": {},
+   	"dependencies": {
+      "<depName>": "<pointer>"
+    },
 		"devDependencied": {},
 		"mappings": {},
 		"devMappings": {},
 		"optionalMappings": {},
+    "bin": {
+      "<binAlias>": "<path>"
+    },
     "scripts": {
-      "workspace": "<command>"
+      "start-workspace": "<command>",
+      "stop-workspace": "<command>",
+      "install": "<command>"
     }
 	}
 
@@ -31,9 +38,31 @@ The above is loosely based on the following specifications:
 Once a package has a *package descriptor* it may be used via the `sm` [Command Line Tool](./CommandLine.md) or
 the `sm` [NodeJS Module](./NodejsModule.md).
 
+See [Package Environment](./PackageEnvironment.md) for what can be achieved with the *package descriptor*.
+
+See [Platforms](./Platforms.md) and [Engines](./Engines.md) for `<platform*>` and `<engine*>` defaults.
+
 
 Details on properties
 =====================
+
+`dependencies`
+--------------
+
+  * Where `<depName> === <pkgAlias>` and is the name of a package from the `<platformRegistry>` and `<pointer>` a [npm version range](https://npmjs.org/doc/json.html#dependencies).
+  * Where packages are installed at `./<platformDepFolder>/<depName>`.
+
+`bin`
+-----
+
+  * Where `<path>` is linked to `./bin/<depAlias>-<binAlias>`
+
+`scripts`
+---------
+
+  * Where `<command>` may be formatted according to `SM.for("github.com/sourcemint/sm/").require("helpers").makeNodeCommanFromString("<command>")`.
+  * For `*-workspace` scripts see [Package Environment](./PackageEnvironment.md).
+  * Where `install` is called after all dependencies are resolved and is intended to compile the package.
 
 `help`
 ------
