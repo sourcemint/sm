@@ -1,10 +1,23 @@
-#!/usr/bin/env node
+#!/bin/bash
 
-const SM_CLI = require("../lib/sm-cli");
-const ERROR = require("sourcemint-util-js/lib/error");
+BASE_PATH=$(dirname $(readlink $0))
+# TODO: Only match until first non-option argument is found. i.e. argument not prefixed by '-'
+DIR_ARG=$(echo "$@" | perl -lpe '($_) = /\s*--dir\s*(\S*)\s*/')
 
-SM_CLI.for(process.cwd()).respond(process.argv).then(function() {
-	process.exit(0);
-}, function(err) {
-	return ERROR.exitProcessWithError(err);
-});
+PLATFORM_BIN_NAME="node"
+
+PLATFORM_BIN_PATH=$(which "$PLATFORM_BIN_NAME")
+
+if [ -z $PLATFORM_BIN_PATH ]; then
+    echo "Fatal Error: No binary '$PLATFORM_BIN_NAME' found on PATH '$PATH'!"
+    exit 1
+fi
+
+"$PLATFORM_BIN_PATH" "$BASE_PATH/sm.js" "$@"
+
+if [ "$DIR_ARG" != "" ]; then
+	DIR_ARG="$DIR_ARG/"
+fi
+if [ -f "$DIR_ARG./.sm-switch" ]; then
+	"$DIR_ARG./.sm-switch"
+fi

@@ -3,6 +3,7 @@ const PATH = require("path");
 const RUN = require("./_run");
 const EXPECT = require("chai").expect;
 const Q = require("sourcemint-util-js/lib/q");
+const OS = require("sourcemint-util-js/lib/os");
 const SM_CLI = require("../lib/sm-cli")
 
 
@@ -98,6 +99,7 @@ describe("sm-cli", function() {
 		        it("`init --delete https://github.com/sourcemint/test-package2` should download package in read mode and install dependencies", function(done) {
 		        	return callCli([
 						"init",
+						"--cache",
 						"--dir", PATH.join(__dirname, "tmp/sm-cli-clone-1"),
 						"--delete",
 						"https://github.com/sourcemint/test-package2"
@@ -110,10 +112,11 @@ describe("sm-cli", function() {
 					}).fail(done);
 		        });
 
-		        it("`init --dev --delete https://github.com/sourcemint/test-package2` should download package and write mode and install dependencies", function(done) {
+		        it("`init --dev --delete https://github.com/sourcemint/test-package2` should download package in write mode and install dependencies", function(done) {
 		        	return callCli([
 						"init",
 						"--dev",
+						"--cache",
 						"--dir", PATH.join(__dirname, "tmp/sm-cli-clone-2"),
 						"--delete",
 						"https://github.com/sourcemint/test-package2"
@@ -122,6 +125,24 @@ describe("sm-cli", function() {
 						require(PATH.join(__dirname, "tmp/sm-cli-clone-1/test.js")).main(function(err) {
 							EXPECT(err).to.equal(null);
 							return done();
+						});
+					}).fail(done);
+		        });
+
+		        it("`switch --[start|stop]-workspace` should start|stop workspace", function(done) {
+		        	return callCli([
+						"init",
+						"--cache",
+						"--dir", PATH.join(__dirname, "tmp/sm-cli-clone-3"),
+						"--delete",
+						"https://github.com/sourcemint/test-package2"
+					]).then(function(result) {
+						return OS.exec("smb switch --start-workspace --dir " + PATH.join(__dirname, "tmp/sm-cli-clone-3")).then(function(stdout) {
+							EXPECT(stdout).to.equal("start workspace\n");
+								return OS.exec("smb switch --stop-workspace --dir " + PATH.join(__dirname, "tmp/sm-cli-clone-3")).then(function(stdout) {
+								EXPECT(stdout).to.equal("stop workspace\n");
+								return done();
+							});
 						});
 					}).fail(done);
 		        });

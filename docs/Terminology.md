@@ -20,14 +20,15 @@ Implementation abstractions:
 
 Workflow abstractions:
 
-  * **Switch** - (`sm switch -r` switches to `sm switch -p remote`)
-  * **Clone** - 
-  * **Status** - 
-  * **Install** - 
+  * **Switch** - Switch to and activate the workspace for a package.
+  * **Init** - Initialize a package by pulling code from a URI.
+  * **Status** - Display package status.
+  * **Install** - Install package and dependencies.
   * **Update** - 
   * **Edit** - 
-  * **Save** - Commit changes and freeze dependency tree by writing `sm-catalog.json`.
+  * **Test** - Run package tests.
+  * **Save** - Commit all changes and freeze dependency tree by writing `sm-catalog.json`.
   * **Bump** - 
   * **Publish** - 
   * **Deploy** - 
-  * **Report** - 
+  * **Report** - Display detailed report for program (package and dependencies).

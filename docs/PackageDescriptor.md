@@ -17,7 +17,10 @@ The following declarations are recognized:
 		"devDependencied": {},
 		"mappings": {},
 		"devMappings": {},
-		"optionalMappings": {}
+		"optionalMappings": {},
+    "scripts": {
+      "workspace": "<command>"
+    }
 	}
 
 The above is loosely based on the following specifications:
