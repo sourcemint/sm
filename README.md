@@ -16,7 +16,7 @@ Status: BETA
 Description
 -----------
 
-`sm` is a tool to resolve, download, install and work with a package and its dependencies. It is written in JavaScript, runs on [NodeJS](http://nodejs.org/) and is the heart of the [Sourcemint](http://sourcemint.org) system.
+`sm` is a tool to resolve, download, install and work with a code package and its dependencies. It is written in JavaScript, runs on [NodeJS](http://nodejs.org/) and is the heart of the [Sourcemint](http://sourcemint.org) system.
 
 `sm` brings with it some [Rules](https://github.com/sourcemint/sm/blob/master/docs/Rules.md) for how package management should be done and an [Ecosystem](http://sourcemint.com/ecosystem) of existing packages. See [Terminology](https://github.com/sourcemint/sm/blob/master/docs/Terminology.md) for how to reason about aspects of this Ecosystem.
 
