@@ -22,6 +22,7 @@ Implementation abstractions:
 
 Workflow abstractions:
 
+  * **Try** - Quickly install a package to try it out.
   * **Switch** - Switch to and activate the workspace for a package.
   * **Init** - Initialize a package by pulling code from a URI.
   * **Status** - Display package status.
