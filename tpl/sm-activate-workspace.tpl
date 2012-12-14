@@ -28,7 +28,7 @@ if [ "$#" -lt 1 ]; then
     # TODO: Make this work on all terminals and platforms.
     # TODO: Display 'uid' instead of 'name'.
     export SM_WORKSPACE_HOME=__SM_WORKSPACE_HOME__
-    export PATH=__SM_WORKSPACE_HOME__/bin:$PATH
+    export PATH=__SM_WORKSPACE_HOME__/bin:__SM_WORKSPACE_HOME__/.sm/bin:$PATH
     export PS1="\e[00;35msm[\e[00;33m__SM_WORKSPACE_NAME__\e[00;35m]:\e[m "
     cd "$SM_WORKSPACE_HOME"
     echo "[sm] Activating workspace: $SM_WORKSPACE_HOME"
