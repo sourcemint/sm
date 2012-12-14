@@ -26,11 +26,11 @@ Workflow abstractions:
   * **Init** - Initialize a package by pulling code from a URI.
   * **Status** - Display package status.
   * **Install** - Install package and dependencies.
-  * **Update** - 
+  * **Update** - Pull offline all remote changes.
   * **Edit** - 
   * **Test** - Run package tests.
   * **Save** - Commit all changes and freeze dependency tree by writing `sm-catalog.json`.
   * **Bump** - 
-  * **Publish** - 
+  * **Publish** - Push online all local changes.
   * **Deploy** - 
   * **Report** - Display detailed report for program (package and dependencies).
