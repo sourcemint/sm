@@ -33,11 +33,11 @@ if [ "$#" -lt 1 ]; then
     cd "$SM_WORKSPACE_HOME"
     echo "[sm] Activating workspace: $SM_WORKSPACE_HOME"
     rm ".sm-switch"
-    smb switch --start-workspace
+    sm switch --start-workspace
     "$SHELL"
     OLD_PATH=$PWD
     cd "$SM_WORKSPACE_HOME"
-    smb switch --stop-workspace
+    sm switch --stop-workspace
     cd $OLD_PATH
 else
     # Run a command through the activated environment without switching to it.

@@ -137,9 +137,9 @@ describe("sm-cli", function() {
 						"--delete",
 						"https://github.com/sourcemint/test-package2"
 					]).then(function(result) {
-						return OS.exec("smb switch --start-workspace --dir " + PATH.join(__dirname, "tmp/sm-cli-clone-3")).then(function(stdout) {
+						return OS.exec("sm switch --start-workspace --dir " + PATH.join(__dirname, "tmp/sm-cli-clone-3")).then(function(stdout) {
 							EXPECT(stdout).to.equal("start workspace\n");
-								return OS.exec("smb switch --stop-workspace --dir " + PATH.join(__dirname, "tmp/sm-cli-clone-3")).then(function(stdout) {
+								return OS.exec("sm switch --stop-workspace --dir " + PATH.join(__dirname, "tmp/sm-cli-clone-3")).then(function(stdout) {
 								EXPECT(stdout).to.equal("stop workspace\n");
 								return done();
 							});

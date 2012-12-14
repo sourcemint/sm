@@ -13,7 +13,7 @@ if [ -z $PLATFORM_BIN_PATH ]; then
     exit 1
 fi
 
-"$PLATFORM_BIN_PATH" "$BASE_PATH/sm.js" "$@"
+"$PLATFORM_BIN_PATH" "$BASE_PATH/sm-cli.js" "$@"
 
 if [ "$DIR_ARG" != "" ]; then
 	DIR_ARG="$DIR_ARG/"
