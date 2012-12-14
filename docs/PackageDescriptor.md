@@ -55,7 +55,7 @@ Details on properties
 `bin`
 -----
 
-  * Where `<path>` is linked to `./bin/<depAlias>-<binAlias>`
+  * Where `<path>` is linked to `./.sm/bin/<depAlias>-<binAlias>`
 
 `scripts`
 ---------

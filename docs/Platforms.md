@@ -13,4 +13,4 @@ The following `<platformName>`s are supported.
   * `<platformEngine> = "node"`
   * `<platformRegistry> = "registry.npmjs.org"`
   * `<platformDepFolder> = "node_modules"`  
-  * Commands from `./node_modules/.bin/<binAlias>` are linked to `./bin/<depAlias>-<binAlias>` unless `<depAlias> === <binAlias>` in which case they are linked to `./bin/<depAlias>`.
+  * Commands from `./node_modules/.bin/<binAlias>` are linked to `./.sm/bin/<depAlias>-<binAlias>` unless `<depAlias> === <binAlias>` in which case they are linked to `./.sm/bin/<depAlias>`.
