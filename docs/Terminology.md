@@ -5,10 +5,14 @@ The Sourcemint terminology is inspired by and compatible with [CommonJS](http://
 
 Context abstractions:
 
-  * **System** - 1+ *Projects* working in harmony form a *System* which is itself a *Project*.
+  * **System** - Embodies the idea and orchestrates *1+ Projects* into a *System* to realize the idea.
   * **Project** - 1+ *Packages* working in harmony form a *Project* which is itself a *Package*.
+  * **Service** - A service that can be consumed and controlled via an API.
   * **Ticket** - A desired change to a *Package*.
-  * **Seed** - The meta data that shapes and networks a *System*.
+  * **Seed** - The meta data and core controlling code that shapes and networks *1+ System*.
+  * **Profile** - Holds the credentials used by a *System*.
+  * **Development** - The project development environment.
+  * **Release** - The project release environment.
   * **Community** - A group of people working on and using a shared *System*.
 
 Implementation abstractions:
@@ -27,6 +31,7 @@ Workflow abstractions:
   * **Init** - Initialize a package by pulling code from a URI.
   * **Status** - Display package status.
   * **Install** - Install package and dependencies.
+  * **Run** - Run the project.
   * **Update** - Pull offline all remote changes.
   * **Edit** - 
   * **Test** - Run package tests.

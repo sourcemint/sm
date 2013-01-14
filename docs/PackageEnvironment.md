@@ -1,7 +1,12 @@
 Package Environment
 ===================
 
-Each package has a *workspace* which is used to make changes to a package.
+A package environment is created by the presence of a `package.json` file.
+
+Each package has a *workspace* which is used to make changes to the package.
+
+To run a package see [System](./System.md).
+
 
 Workspace
 ---------
@@ -15,11 +20,13 @@ This will provide a console environment with the following features:
   * Colored and named workspace prompt to identify workspace and indicate status (*NYI*).
   * `./bin` on `PATH`.
   * `sm *` shortcuts by promoting `sm` commands to `PATH`. i.e. `status` will call `sm status`. (*NYI*)
+  * `SM_WORKSPACE_HOME` environment variable pointing to root of workspace.
 
 It will also provide a UI environment if the [Package Descriptor](./PackageDescriptor.md) declares the following scripts:
 
   * `start-workspace` - Called on `sm switch` and intended to start a workspace server.
   * `stop-workspace` - Called on `exit` after `sm switch` and intended to stop the workspace server.
+
 
 Package
 -------
