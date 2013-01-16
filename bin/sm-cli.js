@@ -6,6 +6,9 @@ try {
 	SM_CLI.for(process.cwd()).respond(process.argv).then(function() {
 		process.exit(0);
 	}, function(err) {
+		if (typeof err === "object" && /Exit silently \(look for printed error above\)/.test(err.message)) {
+			err = true;
+		}
 		return ERROR.exitProcessWithError(err);
 	});
 } catch(err) {
