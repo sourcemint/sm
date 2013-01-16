@@ -146,6 +146,20 @@ describe("sm-cli", function() {
 						});
 					}).fail(done);
 		        });
+
+		        it("`run` should call 'run' script", function(done) {
+		        	return callCli([
+						"run",
+						"--dir", PATH.join(__dirname, "tmp/sm-cli-clone-3")
+					]).then(function(result) {
+						EXPECT(result).to.be.a("object");
+						EXPECT(result.stdout).to.be.a("string");
+						EXPECT(result.stdout).to.equal(".\n");
+						EXPECT(result.stderr).to.be.a("string");
+						EXPECT(result.stderr).to.equal("");
+						return done();
+					}).fail(done);
+		        });
 		    });
 	    });
 	});    
