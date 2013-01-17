@@ -31,29 +31,56 @@
         "semver": {
             "pointer": "http://registry.npmjs.org/semver/-/semver-1.1.0.tgz"
         },
+        "sm-node-server": {
+            "pointer": "https://github.com/sourcemint/sm-node-server/commit/38d574171339bb592f661380fc9f4f5b6bef0a9e"
+        },
+        "sm-node-server/request": {
+            "pointer": "http://registry.npmjs.org/request/-/request-2.12.0.tgz"
+        },
+        "sm-node-server/request/form-data": {
+            "pointer": "http://registry.npmjs.org/form-data/-/form-data-0.0.3.tgz"
+        },
+        "sm-node-server/request/form-data/async": {
+            "pointer": "http://registry.npmjs.org/async/-/async-0.1.9.tgz"
+        },
+        "sm-node-server/request/form-data/combined-stream": {
+            "pointer": "http://registry.npmjs.org/combined-stream/-/combined-stream-0.0.3.tgz"
+        },
+        "sm-node-server/request/form-data/combined-stream/delayed-stream": {
+            "pointer": "http://registry.npmjs.org/delayed-stream/-/delayed-stream-0.0.5.tgz"
+        },
+        "sm-node-server/request/form-data/mime": {
+            "pointer": "http://registry.npmjs.org/mime/-/mime-1.2.7.tgz"
+        },
+        "sm-node-server/request/mime": {
+            "pointer": "http://registry.npmjs.org/mime/-/mime-1.2.7.tgz"
+        },
+        "sm-node-server/sourcemint-util-js": {
+            "pointer": "http://registry.npmjs.org/sourcemint-util-js/-/sourcemint-util-js-0.2.0.tgz"
+        },
         "sm-plugin": {
-            "pointer": "https://github.com/sourcemint/sm-plugin/commit/0.1.0"
+            "pointer": "https://github.com/sourcemint/sm-plugin/commit/4feaa382e2824676b8c51a0a73266ce8436fe2e5"
         },
         "sm-plugin/sm-plugin-archive": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-archive/commit/d1db509a4e363ad3aa6cc79b9ad5e08b2d23b83b"
+            "pointer": "https://github.com/sourcemint/sm-plugin-archive/commit/c11886ea15ee0da5326ecfbb2c13d75dd3cc974a"
         },
         "sm-plugin/sm-plugin-git": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-git/commit/55cc0e86526b07f7ba34181c8cb86c9ce9e74a99"
+            "pointer": "https://github.com/sourcemint/sm-plugin-git/commit/db77033fd622288d696667c016417171a5e4d595"
         },
         "sm-plugin/sm-plugin-github": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/75caee4a072e43c08dcb9f38cec88891cfd1a61e"
+            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/4ee4652c8a3aa4ef9d96466afb2fab12e15966db"
         },
         "sm-plugin/sm-plugin-github/github": {
             "pointer": "http://registry.npmjs.org/github/-/github-0.1.7.tgz"
         },
         "sm-plugin/sm-plugin-make": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-make/commit/540680ac4515c9c9b58f0833e5524658c98aaf5b"
+            "pointer": "https://github.com/sourcemint/sm-plugin-make/commit/1ba4543999154f7da0060eb37ff54514f4b5ffb4"
         },
         "sm-plugin/sm-plugin-npm": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-npm/commit/afe24175ffdd2355746d706aeb79b4942ed4d0e6"
+            "pointer": "https://github.com/sourcemint/sm-plugin-npm/commit/72f053ae7c75c6946266940c299b00e563b471b3"
         },
         "sm-plugin/sm-plugin-sm": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/56191ee1c16b0d1764008c30162e4c5d97dd4bd2"
+            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/7dedbc851dde12f80136ca2fad4a04d075cd8bde"
         },
         "sm-plugin/sm-plugin-sm/istanbul": {
             "pointer": "http://registry.npmjs.org/istanbul/-/istanbul-0.1.23.tgz"
@@ -131,10 +158,10 @@
             "pointer": "http://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz"
         },
         "sm-plugin/sm-plugin-stree": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-stree/commit/53919367219d0ecc5b22d787f911f003b2d5c0e7"
+            "pointer": "https://github.com/sourcemint/sm-plugin-stree/commit/ed3d8cd871157137597a0ede526c92c741acbf96"
         },
         "sm-plugin/sm-plugin-tar": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-tar/commit/b44f2ce59827ec18d9f1223dabbcab2d2be63c45"
+            "pointer": "https://github.com/sourcemint/sm-plugin-tar/commit/1cfd50b9fb75ece2811a21fe4aa8704b1f38f7d3"
         },
         "sm-plugin/sm-plugin-tar/tar": {
             "pointer": "http://registry.npmjs.org/tar/-/tar-0.1.14.tgz"
@@ -166,8 +193,11 @@
         "sm-plugin/sm-plugin-tar/tar/inherits": {
             "pointer": "http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz"
         },
+        "sm-plugin/sm-plugin-url": {
+            "pointer": "https://github.com/sourcemint/sm-plugin-url/commit/98024cfd127bd5188b0ffa3d9352f0b94f8403e8"
+        },
         "sm-plugin/sm-plugin-zip": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-zip/commit/6e63c647a9246bdbe6e63fb7a76e303dc25617c1"
+            "pointer": "https://github.com/sourcemint/sm-plugin-zip/commit/6f633e5dc2d86744242319e81977ee17b689e965"
         },
         "sourcemint-util-js": {
             "pointer": "http://registry.npmjs.org/sourcemint-util-js/-/sourcemint-util-js-0.2.0.tgz"
