@@ -42,8 +42,8 @@
         "winston": "0.6.x"
     },
     "mappings": {
-        "sm-plugin": "github.com/sourcemint/sm-plugin/~0.1",
-        "sm-node-server": "github.com/sourcemint/sm-node-server/~0.1"
+        "sm-plugin": "github.com/sourcemint/sm-plugin/~0.1.0",
+        "sm-node-server": "github.com/sourcemint/sm-node-server/~0.1.0"
     },
     "scripts": {
         "test": "node tests/_run.js"
