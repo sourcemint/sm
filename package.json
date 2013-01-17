@@ -33,7 +33,6 @@
     },
     "main": "./lib/sm.js",
     "dependencies": {
-        "sourcemint-util-js": "0.2.x",
         "commander": "1.0.x",
         "graceful-fs": "1.1.x",
         "semver": "1.1.x",
@@ -42,6 +41,7 @@
         "winston": "0.6.x"
     },
     "mappings": {
+        "sm-util": "github.com/sourcemint/sm-util/~0.1.0",
         "sm-plugin": "github.com/sourcemint/sm-plugin/~0.1.0",
         "sm-node-server": "github.com/sourcemint/sm-node-server/~0.1.0"
     },

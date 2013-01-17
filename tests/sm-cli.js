@@ -2,8 +2,8 @@
 const PATH = require("path");
 const RUN = require("./_run");
 const EXPECT = require("chai").expect;
-const Q = require("sourcemint-util-js/lib/q");
-const OS = require("sourcemint-util-js/lib/os");
+const Q = require("sm-util/lib/q");
+const OS = require("sm-util/lib/os");
 const SM_CLI = require("../lib/sm-cli")
 
 

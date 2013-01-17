@@ -1,6 +1,6 @@
 
 const EXPECT = require("chai").expect;
-const Q = require("sourcemint-util-js/lib/q");
+const Q = require("sm-util/lib/q");
 const SCANNER = require("../lib/scanner");
 
 

@@ -1,8 +1,8 @@
 
 const PATH = require("path");
 const SPAWN = require("child_process").spawn;
-const TERM = require("sourcemint-util-js/lib/term");
-const ERROR = require("sourcemint-util-js/lib/error");
+const TERM = require("sm-util/lib/term");
+const ERROR = require("sm-util/lib/error");
 
 
 exports.main = function(callback) {
@@ -58,7 +58,7 @@ exports.main = function(callback) {
 }
 
 
-// TODO: Relocate to `sourcemint-util-js/lib/os`.
+// TODO: Relocate to `sm-util/lib/os`.
 function call(command, args, options, callback) {
 	options.cwd = options.cwd || __dirname;
 	options.stdio = "inherit";    // NodeJS 0.8+	

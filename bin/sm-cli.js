@@ -1,6 +1,6 @@
 
 const SM_CLI = require("../lib/sm-cli");
-const ERROR = require("sourcemint-util-js/lib/error");
+const ERROR = require("sm-util/lib/error");
 
 try {
 	SM_CLI.for(process.cwd()).respond(process.argv).then(function() {

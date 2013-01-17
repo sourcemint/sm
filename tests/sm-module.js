@@ -2,7 +2,7 @@
 const PATH = require("path");
 const RUN = require("./_run");
 const EXPECT = require("chai").expect;
-const Q = require("sourcemint-util-js/lib/q");
+const Q = require("sm-util/lib/q");
 const SM = require("../lib/sm");
 
 

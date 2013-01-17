@@ -32,7 +32,7 @@
             "pointer": "http://registry.npmjs.org/semver/-/semver-1.1.0.tgz"
         },
         "sm-node-server": {
-            "pointer": "https://github.com/sourcemint/sm-node-server/commit/38d574171339bb592f661380fc9f4f5b6bef0a9e"
+            "pointer": "https://github.com/sourcemint/sm-node-server/commit/18628e92bdb4094b02f857516b06f392e3a1dbeb"
         },
         "sm-node-server/request": {
             "pointer": "http://registry.npmjs.org/request/-/request-2.12.0.tgz"
@@ -55,8 +55,8 @@
         "sm-node-server/request/mime": {
             "pointer": "http://registry.npmjs.org/mime/-/mime-1.2.7.tgz"
         },
-        "sm-node-server/sourcemint-util-js": {
-            "pointer": "http://registry.npmjs.org/sourcemint-util-js/-/sourcemint-util-js-0.2.0.tgz"
+        "sm-node-server/sm-util": {
+            "pointer": "https://github.com/sourcemint/sm-util/commit/6551c89773bb25d45cb32310743b6224778c1b66"
         },
         "sm-plugin": {
             "pointer": "https://github.com/sourcemint/sm-plugin/commit/4feaa382e2824676b8c51a0a73266ce8436fe2e5"
@@ -199,50 +199,50 @@
         "sm-plugin/sm-plugin-zip": {
             "pointer": "https://github.com/sourcemint/sm-plugin-zip/commit/6f633e5dc2d86744242319e81977ee17b689e965"
         },
-        "sourcemint-util-js": {
-            "pointer": "http://registry.npmjs.org/sourcemint-util-js/-/sourcemint-util-js-0.2.0.tgz"
+        "sm-util": {
+            "pointer": "https://github.com/sourcemint/sm-util/commit/6551c89773bb25d45cb32310743b6224778c1b66"
         },
-        "sourcemint-util-js/console-trace": {
+        "sm-util/console-trace": {
             "pointer": "http://registry.npmjs.org/console-trace/-/console-trace-0.2.1.tgz"
         },
-        "sourcemint-util-js/console-trace/callsite": {
+        "sm-util/console-trace/callsite": {
             "pointer": "http://registry.npmjs.org/callsite/-/callsite-0.0.2.tgz"
         },
-        "sourcemint-util-js/glob": {
+        "sm-util/glob": {
             "pointer": "http://registry.npmjs.org/glob/-/glob-3.1.14.tgz"
         },
-        "sourcemint-util-js/glob/graceful-fs": {
+        "sm-util/glob/graceful-fs": {
             "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
         },
-        "sourcemint-util-js/glob/inherits": {
+        "sm-util/glob/inherits": {
             "pointer": "http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz"
         },
-        "sourcemint-util-js/glob/minimatch": {
+        "sm-util/glob/minimatch": {
             "pointer": "http://registry.npmjs.org/minimatch/-/minimatch-0.2.9.tgz"
         },
-        "sourcemint-util-js/glob/minimatch/lru-cache": {
+        "sm-util/glob/minimatch/lru-cache": {
             "pointer": "http://registry.npmjs.org/lru-cache/-/lru-cache-2.0.4.tgz"
         },
-        "sourcemint-util-js/glob/minimatch/sigmund": {
+        "sm-util/glob/minimatch/sigmund": {
             "pointer": "http://registry.npmjs.org/sigmund/-/sigmund-1.0.0.tgz"
         },
-        "sourcemint-util-js/n-util": {
+        "sm-util/n-util": {
             "pointer": "http://registry.npmjs.org/n-util/-/n-util-0.0.1.tgz"
         },
-        "sourcemint-util-js/netutil": {
+        "sm-util/netutil": {
             "pointer": "http://registry.npmjs.org/netutil/-/netutil-0.0.1.tgz"
         },
-        "sourcemint-util-js/q": {
+        "sm-util/q": {
             "pointer": "http://registry.npmjs.org/q/-/q-0.8.5.tgz"
         },
-        "sourcemint-util-js/tunnel": {
+        "sm-util/tunnel": {
             "pointer": "http://registry.npmjs.org/tunnel/-/tunnel-0.0.2.tgz"
         },
-        "sourcemint-util-js/waitfor": {
+        "sm-util/waitfor": {
             "pointer": "http://registry.npmjs.org/waitfor/-/waitfor-0.1.1.tgz"
         },
-        "sourcemint-util-js/wrench": {
-            "pointer": "http://registry.npmjs.org/wrench/-/wrench-1.3.9.tgz"
+        "sm-util/wrench": {
+            "pointer": "http://registry.npmjs.org/wrench/-/wrench-1.4.4.tgz"
         },
         "winston": {
             "pointer": "http://registry.npmjs.org/winston/-/winston-0.6.2.tgz"

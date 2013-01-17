@@ -4,9 +4,9 @@
 
 const PATH = require("path");
 const FS = require("fs");
-const CONSOLE = require("sourcemint-util-js/lib/console");
-const ERROR = require("sourcemint-util-js/lib/error");
-const UTIL = require("sourcemint-util-js/lib/util");
+const CONSOLE = require("sm-util/lib/console");
+const ERROR = require("sm-util/lib/error");
+const UTIL = require("sm-util/lib/util");
 // @see https://github.com/visionmedia/mocha/wiki/Using-mocha-programmatically
 const MOCHA = require("mocha");
 const CHAI = require("chai");
