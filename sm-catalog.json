@@ -26,7 +26,7 @@
             "pointer": "http://registry.npmjs.org/pkginfo/-/pkginfo-0.2.3.tgz"
         },
         "mappings": {
-            "pointer": "http://registry.npmjs.org/mappings/-/mappings-0.2.0.tgz"
+            "pointer": "http://registry.npmjs.org/mappings/-/mappings-0.2.1.tgz"
         },
         "semver": {
             "pointer": "http://registry.npmjs.org/semver/-/semver-1.1.0.tgz"
@@ -68,7 +68,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-git/commit/db77033fd622288d696667c016417171a5e4d595"
         },
         "sm-plugin/sm-plugin-github": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/4ee4652c8a3aa4ef9d96466afb2fab12e15966db"
+            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/a63771cdf42831cc27be0e1096a18cc44066cdfd"
         },
         "sm-plugin/sm-plugin-github/github": {
             "pointer": "http://registry.npmjs.org/github/-/github-0.1.7.tgz"
