@@ -56,7 +56,7 @@
             "pointer": "http://registry.npmjs.org/mime/-/mime-1.2.7.tgz"
         },
         "sm-node-server/sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/6551c89773bb25d45cb32310743b6224778c1b66"
+            "pointer": "https://github.com/sourcemint/sm-util/commit/e60fd8d3454d369372d2ac4e7305680f41ce02bd"
         },
         "sm-plugin": {
             "pointer": "https://github.com/sourcemint/sm-plugin/commit/4feaa382e2824676b8c51a0a73266ce8436fe2e5"
@@ -200,7 +200,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-zip/commit/6f633e5dc2d86744242319e81977ee17b689e965"
         },
         "sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/6551c89773bb25d45cb32310743b6224778c1b66"
+            "pointer": "https://github.com/sourcemint/sm-util/commit/e60fd8d3454d369372d2ac4e7305680f41ce02bd"
         },
         "sm-util/console-trace": {
             "pointer": "http://registry.npmjs.org/console-trace/-/console-trace-0.2.1.tgz"
