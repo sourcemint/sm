@@ -31,7 +31,6 @@ exports.main = function(callback) {
 				var sourcePath = PATH.join(__dirname, "../dist/source");
 
 				var descriptor = JSON.parse(FS.readFileSync(PATH.join(sourcePath, "package.json")));
-
 				[
 					"description",
 					"license",
@@ -44,6 +43,7 @@ exports.main = function(callback) {
 				].forEach(function(name) {
 					descriptor[name] = node.descriptors.package[name];
 				});
+				descriptor.pm = "npm";
 
 	            FS.writeFileSync(PATH.join(sourcePath, "package.json"), JSON.stringify(descriptor, null, 4));
 
