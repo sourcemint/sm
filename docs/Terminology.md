@@ -39,6 +39,6 @@ Workflow abstractions:
   * **Bump** - Increment package version.
   * **Publish** - Push online all local changes.
   * **Export** - Copy all source code and resolve external links to create standalone package.
-  * **Build** - 
+  * **Build** - Build distribution release of package.
   * **Deploy** - 
   * **Report** - Display detailed report for program (package and dependencies).
