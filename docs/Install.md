@@ -4,7 +4,7 @@ Install
 Requirements
 ------------
 
-  * [NodeJS](http://nodejs.org) 0.6 & [npm](http://npmjs.org)
+  * [NodeJS](http://nodejs.org) ~0.6.19 & [npm](http://npmjs.org)
   * OSX
   * [Github Account](http://github.com)
 
