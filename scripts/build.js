@@ -44,6 +44,7 @@ exports.main = function(callback) {
 					descriptor[name] = node.descriptors.package[name];
 				});
 				descriptor.pm = "npm";
+				descriptor.publish = true;
 
 	            FS.writeFileSync(PATH.join(sourcePath, "package.json"), JSON.stringify(descriptor, null, 4));
 
