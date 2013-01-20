@@ -8,11 +8,13 @@
 /dist/
 /scripts/
 docs/
+design/
 /scripts/build/
 test/
 tests/
 /node_modules/*/bin/
 tmp/
+.tmp/
 benchmarks/
 example/
 examples/
