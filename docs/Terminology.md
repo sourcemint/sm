@@ -26,7 +26,7 @@ Implementation abstractions:
 
 Workflow abstractions:
 
-  * **Try** - Quickly install and siwtch to the package to try it out.
+  * **Try** - Quickly install and switch to the package to try it out.
   * **Switch** - Switch to and activate the workspace for a package.
   * **Init** - Initialize a package by pulling code from a URI.
   * **Status** - Display package status.
@@ -36,7 +36,9 @@ Workflow abstractions:
   * **Edit** - 
   * **Test** - Run package tests.
   * **Save** - Commit all changes and freeze dependency tree by writing `sm-catalog.json`.
-  * **Bump** - 
+  * **Bump** - Increment package version.
   * **Publish** - Push online all local changes.
+  * **Export** - Copy all source code and resolve external links to create standalone package.
+  * **Build** - 
   * **Deploy** - 
   * **Report** - Display detailed report for program (package and dependencies).

@@ -36,6 +36,7 @@ Defaults:
   * `require("<depAlias>/<moduleId>")` will resolve to `./lib/<moduleId>.<engineExtension>` if `<moduleId>` does not end in `.<engineExtension>`.
   * `require("<depAlias>/<moduleId>.<ext>")` will resolve to `./<moduleId>.<ext>`.
   * `package.json ~ scripts.install = "<command>"` is called after all dependencies are resolved and is intended to compile the package.
+  * `.distignore` holds the git like ignore rules to describe the minimal complete featureset of the package needed during runtime.
 
 See [Platforms](./Platforms.md) and [Engines](./Engines.md) for `<platform*>` and `<engine*>` defaults and specific details.
 
