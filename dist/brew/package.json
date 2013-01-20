@@ -1,0 +1,7 @@
+{
+    "name": "sm-dist-brew",
+    "version": "0.1.0",
+    "mappings": {
+        "brew": "github.com/sourcemint/homebrew/master"
+    }
+}
