@@ -6,6 +6,7 @@ A `sm` compatible package must have a *package descriptor* stored in a `package.
 The following declarations are recognized:
 
 	package.json ~ {
+    "uid": "<string>",
 		"name": "<string>",
 		"version": "<semver>",
 		"pm": "<name>",
@@ -45,6 +46,11 @@ See [Platforms](./Platforms.md) and [Engines](./Engines.md) for `<platform*>` an
 
 Details on properties
 =====================
+
+`uid`
+-----
+
+  * A url that points to the repository uri for the package excluding any branch, version or revision identification.
 
 `dependencies`
 --------------
