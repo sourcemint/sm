@@ -65,6 +65,9 @@ exports.main = function(callback) {
 					delete descriptor.bin;
 
 		            FS.writeFileSync(PATH.join(npmPath, "package.json"), JSON.stringify(descriptor, null, 4));					
+		            FS.writeFileSync(PATH.join(npmPath, ".npmignore"), [
+		            	"/.sm/"
+		            ].join("\n"));
 /*
 					OS.spawnInline("npm", [ "pack" ], {
 						cwd: npmPath
