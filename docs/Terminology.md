@@ -22,7 +22,8 @@ Implementation abstractions:
   * **Dependency** - A *Package* used by a more abstract *Package*.
   * **Patch** - An actualized change to a *Package*.
   * **Engine** - The runtime that will execute the code for a *Package* and determines the `<engine*>` defaults.
-  * **Platform** - The ecosystem that will 'host' the *Package* and determines the `<platform*>` defaults.
+  * **Platform** - The base that will 'host' the *Package* and determines the `<platform*>` defaults.
+  * **Toolchain** - The ecosystem that encompasses everything needed to build systems.
 
 Workflow abstractions:
 

@@ -1,7 +1,7 @@
 Platforms
 =========
 
-The ecosystem that will 'host' the *Package*.
+The base that will 'host' the *Package*.
 
 The following `<platformName>`s are supported.
 

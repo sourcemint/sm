@@ -58,6 +58,13 @@ exports.main = function(callback) {
 
 				COPY(sourcePath, npmPath, function(err) {
 					if (err) return callback(err);
+
+					var descriptor = JSON.parse(FS.readFileSync(PATH.join(npmPath, "package.json")));
+					// We don't want NPM to put `sm` on the `PATH` as that usually results in errors during install.
+					// TODO: Update this only for `dist/npm`.
+					delete descriptor.bin;
+
+		            FS.writeFileSync(PATH.join(npmPath, "package.json"), JSON.stringify(descriptor, null, 4));					
 /*
 					OS.spawnInline("npm", [ "pack" ], {
 						cwd: npmPath
