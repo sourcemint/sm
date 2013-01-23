@@ -27,6 +27,7 @@ if [ "$#" -lt 1 ]; then
     # TODO: Show activated ticket ID.
     # TODO: Make this work on all terminals and platforms.
     # TODO: Display 'uid' instead of 'name'.
+    export SM_HOME=__SM_HOME__
     export SM_WORKSPACE_HOME=__SM_WORKSPACE_HOME__
     export PATH=__SM_WORKSPACE_HOME__/bin:__SM_WORKSPACE_HOME__/.sm/bin:$PATH
     export PS1="\e[00;35msm[\e[00;33m__SM_WORKSPACE_NAME__\e[00;35m]:\e[m "
@@ -35,11 +36,15 @@ if [ "$#" -lt 1 ]; then
     if [ -f ".sm-switch" ]; then
         rm ".sm-switch"
     fi
-    sm switch --start-workspace
+    BIN_PATH="sm"
+    if [ -n "$SM_BIN_PATH" ]; then
+        BIN_PATH=$SM_BIN_PATH
+    fi
+    $BIN_PATH switch --start-workspace
     "$SHELL"
     OLD_PATH=$PWD
     cd "$SM_WORKSPACE_HOME"
-    sm switch --stop-workspace
+    $BIN_PATH switch --stop-workspace
     cd $OLD_PATH
 else
     # Run a command through the activated environment without switching to it.
