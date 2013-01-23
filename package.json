@@ -41,9 +41,7 @@
         "semver": "1.1.x",
         "http-proxy": "0.8.x",
         "mappings": "0.2.x",
-        "winston": "0.6.x"
-    },
-    "devDependencies": {
+        "winston": "0.6.x",
         "ncp": "~0.2.6"
     },
     "mappings": {
@@ -54,6 +52,7 @@
     "scripts": {
         "test": "node tests/_run.js",
         "build": "node scripts/build.js",
-        "publish": "sm publish --dir ./dist/npm"
+        "publish": "sm publish --dir ./dist/npm",
+        "postinstall": "node ./scripts/postinstall.js"
     }
 }
