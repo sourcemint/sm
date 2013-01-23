@@ -28,9 +28,6 @@
         "url": "https://github.com/sourcemint/sm.git"
     },
     "pm": "sm",
-    "engines": {
-        "node": "~0.6.19"
-    },
     "bin": {
         "sm": "./bin/sm-cli"
     },
@@ -48,6 +45,23 @@
         "sm-util": "github.com/sourcemint/sm-util/~0.1.0",
         "sm-plugin": "github.com/sourcemint/sm-plugin/~0.1.0",
         "sm-node-server": "github.com/sourcemint/sm-node-server/~0.1.0"
+    },
+    "engines": {
+        "node": "~0.6.19"
+    },
+    "optionalMappings": {
+        "node": [
+            "sm",
+            "http://nodejs.org/dist/v0.6.19/node-v0.6.19.tar.gz",
+            {
+                "descriptor": {
+                    "pm": "make",
+                    "bin": {
+                        "node": "./node"
+                    }
+                }
+            }
+        ]
     },
     "scripts": {
         "test": "node tests/_run.js",

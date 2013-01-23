@@ -8,10 +8,19 @@ export SM_BIN_PATH="$(cd "$(dirname "$0")"; pwd)/$(basename "$0")"
 SOURCE="${BASH_SOURCE[0]}"
 while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
   DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+  LAST_SOURCE=$SOURCE
   SOURCE="$(readlink "$SOURCE")"
+  # When command name changes from `sm` to `sm-cli` we have found where sm is being made
+  # public to the system. We add this dir to `PATH` to give these commands precendence.
+  if [[ "$SOURCE" =~ sm-cli$ && "$LAST_SOURCE" =~ sm$ ]]; then
+    export PATH="$(dirname $LAST_SOURCE):$PATH"
+  fi
   [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE" # if $SOURCE was a relative symlink, we need to resolve it relative to the path where the symlink file was located
 done
 BASE_PATH="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+
+# Use own node if installed, otherwise fall back to env.
+export PATH="$BASE_PATH:$(dirname $BASE_PATH)/.sm/bin:$PATH"
 
 # TODO: Only match until first non-option argument is found. i.e. argument not prefixed by '-'
 DIR_ARG=$(echo "$@" | perl -lpe '($_) = /\s*--dir\s*(\S*)\s*/')
