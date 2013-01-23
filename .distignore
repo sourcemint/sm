@@ -6,6 +6,7 @@
 .sm/
 .bin/
 /dist/
+!/scripts/postinstall.js
 /scripts/
 docs/
 design/

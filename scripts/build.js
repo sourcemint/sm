@@ -43,6 +43,9 @@ exports.main = function(callback) {
 				].forEach(function(name) {
 					descriptor[name] = node.descriptors.package[name];
 				});
+				descriptor.scripts = {
+					postinstall: node.descriptors.package.scripts.postinstall
+				};
 				descriptor.pm = "npm";
 				descriptor.publish = true;
 
