@@ -83,7 +83,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-npm/commit/890445129fa27deac8a8f064aff631c7baa9c250"
         },
         "sm-plugin/sm-plugin-sm": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/9da9f9a54dc45c286fcc6a47123b9bd001e25615"
+            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/52f2038c42b137406d347aee07c16e292ef65a58"
         },
         "sm-plugin/sm-plugin-sm/graceful-fs": {
             "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
