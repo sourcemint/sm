@@ -59,7 +59,7 @@
             "pointer": "http://registry.npmjs.org/mime/-/mime-1.2.7.tgz"
         },
         "sm-node-server/sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/f133614b39bafb3134568c6d532df8e1bc45caa6"
+            "pointer": "https://github.com/sourcemint/sm-util/commit/82730f40086ea3704fa12a40f653fdff08267311"
         },
         "sm-plugin": {
             "pointer": "https://github.com/sourcemint/sm-plugin/commit/37a34adbe91f9a9c31a1aca3ecdada2c91bc7884"
@@ -83,7 +83,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-npm/commit/890445129fa27deac8a8f064aff631c7baa9c250"
         },
         "sm-plugin/sm-plugin-sm": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/f8b8a832c289cab0af7201c7803f81286f39cfaa"
+            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/9da9f9a54dc45c286fcc6a47123b9bd001e25615"
         },
         "sm-plugin/sm-plugin-sm/graceful-fs": {
             "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
@@ -212,7 +212,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-zip/commit/6f633e5dc2d86744242319e81977ee17b689e965"
         },
         "sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/f133614b39bafb3134568c6d532df8e1bc45caa6"
+            "pointer": "https://github.com/sourcemint/sm-util/commit/82730f40086ea3704fa12a40f653fdff08267311"
         },
         "sm-util/console-trace": {
             "pointer": "http://registry.npmjs.org/console-trace/-/console-trace-0.2.1.tgz"
@@ -220,8 +220,26 @@
         "sm-util/console-trace/callsite": {
             "pointer": "http://registry.npmjs.org/callsite/-/callsite-0.0.2.tgz"
         },
+        "sm-util/fs-extra": {
+            "pointer": "http://registry.npmjs.org/fs-extra/-/fs-extra-0.3.2.tgz"
+        },
+        "sm-util/fs-extra/jsonfile": {
+            "pointer": "http://registry.npmjs.org/jsonfile/-/jsonfile-0.0.1.tgz"
+        },
+        "sm-util/fs-extra/mkdirp": {
+            "pointer": "http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz"
+        },
+        "sm-util/fs-extra/ncp": {
+            "pointer": "http://registry.npmjs.org/ncp/-/ncp-0.2.6.tgz"
+        },
+        "sm-util/fs-extra/rimraf": {
+            "pointer": "http://registry.npmjs.org/rimraf/-/rimraf-2.0.3.tgz"
+        },
+        "sm-util/fs-extra/rimraf/graceful-fs": {
+            "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
+        },
         "sm-util/glob": {
-            "pointer": "http://registry.npmjs.org/glob/-/glob-3.1.14.tgz"
+            "pointer": "http://registry.npmjs.org/glob/-/glob-3.1.16.tgz"
         },
         "sm-util/glob/graceful-fs": {
             "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
