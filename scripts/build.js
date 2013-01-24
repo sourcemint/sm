@@ -41,10 +41,10 @@ exports.main = function(callback) {
 					"homepage",
 					"repository"
 				].forEach(function(name) {
-					descriptor[name] = node.descriptors.package[name];
+					descriptor[name] = node.descriptor.package[name];
 				});
 				descriptor.scripts = {
-					postinstall: node.descriptors.package.scripts.postinstall
+					postinstall: node.descriptor.package.scripts.postinstall
 				};
 				descriptor.pm = "npm";
 				descriptor.publish = true;
