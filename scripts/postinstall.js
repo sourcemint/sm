@@ -12,6 +12,23 @@ exports.main = function(callback) {
 
 	try {
 
+		if (process.version !== "v0.6.19") {
+
+			TERM.stdout.writenl("\0red(");
+			TERM.stdout.writenl("  ERROR: You need NodeJS v0.6.19 to run `sm` due to https://github.com/sourcemint/sm/issues/3");
+			TERM.stdout.writenl("  WORKAROUND: Use https://github.com/creationix/nvm to activate NodeJS v0.6.19:");
+			TERM.stdout.writenl("");
+			TERM.stdout.writenl("    \0bold(curl https://raw.github.com/creationix/nvm/master/install.sh | sh");
+			TERM.stdout.writenl("    \0bold(nvm run 0.6.19");
+			TERM.stdout.writenl("");
+			TERM.stdout.writenl("  Then re-run `npm install -g sm`.");
+			TERM.stdout.writenl("  Make sure to `nvm use 0.6.19` before using `sm` in future.");
+			TERM.stdout.writenl("  NOTE: The need for NodeJS v0.6.19 specifically and `nvm` is only temporary until the issue above is resolved.");
+			TERM.stdout.writenl("\0)");
+
+			return callback(true);
+		}
+
 		var homeBasePath = CONFIG.getHomeBasePath();
 
 		if (PATH.existsSync(homeBasePath)) {
