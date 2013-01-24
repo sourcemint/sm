@@ -59,16 +59,16 @@
             "pointer": "http://registry.npmjs.org/mime/-/mime-1.2.7.tgz"
         },
         "sm-node-server/sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/82730f40086ea3704fa12a40f653fdff08267311"
+            "pointer": "https://github.com/sourcemint/sm-util/commit/35ecdc7c3626afd988283b77bfe6236779c95d0b"
         },
         "sm-plugin": {
-            "pointer": "https://github.com/sourcemint/sm-plugin/commit/37a34adbe91f9a9c31a1aca3ecdada2c91bc7884"
+            "pointer": "https://github.com/sourcemint/sm-plugin/commit/273d569e7c358f49b40f4b3016616ad9809b3863"
         },
         "sm-plugin/sm-plugin-archive": {
             "pointer": "https://github.com/sourcemint/sm-plugin-archive/commit/c11886ea15ee0da5326ecfbb2c13d75dd3cc974a"
         },
         "sm-plugin/sm-plugin-git": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-git/commit/a639677422e5395375d99befa29d639337fb8af1"
+            "pointer": "https://github.com/sourcemint/sm-plugin-git/commit/26ddddbdc22cd1638995ab029f1267e3b5469464"
         },
         "sm-plugin/sm-plugin-github": {
             "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/4242bd3d87cd84b01bf7da0f38bf2dc86251098e"
@@ -77,13 +77,13 @@
             "pointer": "http://registry.npmjs.org/github/-/github-0.1.7.tgz"
         },
         "sm-plugin/sm-plugin-make": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-make/commit/1ba4543999154f7da0060eb37ff54514f4b5ffb4"
+            "pointer": "https://github.com/sourcemint/sm-plugin-make/commit/33670bf05f0c340119b982da037e7fb71b96847a"
         },
         "sm-plugin/sm-plugin-npm": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-npm/commit/890445129fa27deac8a8f064aff631c7baa9c250"
+            "pointer": "https://github.com/sourcemint/sm-plugin-npm/commit/d1bfd78e0076869686c06ee803f5a2c2ffbe187f"
         },
         "sm-plugin/sm-plugin-sm": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/52f2038c42b137406d347aee07c16e292ef65a58"
+            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/0a393a5d2db55f86eb8a8f8b947063083c0c2087"
         },
         "sm-plugin/sm-plugin-sm/graceful-fs": {
             "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
@@ -212,13 +212,16 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-zip/commit/6f633e5dc2d86744242319e81977ee17b689e965"
         },
         "sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/82730f40086ea3704fa12a40f653fdff08267311"
+            "pointer": "https://github.com/sourcemint/sm-util/commit/35ecdc7c3626afd988283b77bfe6236779c95d0b"
         },
         "sm-util/console-trace": {
             "pointer": "http://registry.npmjs.org/console-trace/-/console-trace-0.2.1.tgz"
         },
         "sm-util/console-trace/callsite": {
             "pointer": "http://registry.npmjs.org/callsite/-/callsite-0.0.2.tgz"
+        },
+        "sm-util/deepmerge": {
+            "pointer": "http://registry.npmjs.org/deepmerge/-/deepmerge-0.2.5.tgz"
         },
         "sm-util/fs-extra": {
             "pointer": "http://registry.npmjs.org/fs-extra/-/fs-extra-0.3.2.tgz"
