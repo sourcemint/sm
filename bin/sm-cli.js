@@ -1,8 +1,16 @@
 
+const PATH = require("path");
+const FS = require("fs");
 const SM_CLI = require("../lib/sm-cli");
 const ERROR = require("sm-util/lib/error");
 
+
 try {
+
+	if (PATH.existsSync(PATH.join(process.cwd(), ".sm-switch"))) {
+		FS.unlinkSync(PATH.join(process.cwd(), ".sm-switch"));
+	}
+
 	SM_CLI.for(process.cwd()).respond(process.argv).then(function() {
 		process.exit(0);
 	}, function(err) {
