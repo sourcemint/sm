@@ -35,6 +35,9 @@ if [ -z $PLATFORM_BIN_PATH ]; then
 fi
 
 "$PLATFORM_BIN_PATH" "$BASE_PATH/sm-cli.js" "$@"
+if [ $? -ne 0 ] ; then
+  exit 1
+fi
 
 if [ "$DIR_ARG" != "" ]; then
 	DIR_ARG="$DIR_ARG/"
