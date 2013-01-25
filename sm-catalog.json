@@ -62,7 +62,7 @@
             "pointer": "https://github.com/sourcemint/sm-util/commit/e96cacdeebcd2001014b84abe41717daaa6b8061"
         },
         "sm-plugin": {
-            "pointer": "https://github.com/sourcemint/sm-plugin/commit/509e8fa4e02f4e7fb2e0a9b41155246522b77913"
+            "pointer": "https://github.com/sourcemint/sm-plugin/commit/54d7569b8ac28c1256e71054d242d001139c3449"
         },
         "sm-plugin/sm-plugin-archive": {
             "pointer": "https://github.com/sourcemint/sm-plugin-archive/commit/a3ee17e526d6274628402a851beb74a811d71d21"
@@ -71,10 +71,10 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-dmg/commit/3c6aabf714bcb2d9beb5ee76cad5d824acd22476"
         },
         "sm-plugin/sm-plugin-git": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-git/commit/22318e29da9916aea81e6acc28987c95c3b40789"
+            "pointer": "https://github.com/sourcemint/sm-plugin-git/commit/d9413a90f5c981830a315cc6ac94edce7f284667"
         },
         "sm-plugin/sm-plugin-github": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/7f265bab86aa291daa4ac24c7d945dc9fa2a5f33"
+            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/c698caa77f635c00ae086818614da061019e9e7e"
         },
         "sm-plugin/sm-plugin-github/github": {
             "pointer": "http://registry.npmjs.org/github/-/github-0.1.7.tgz"
@@ -83,7 +83,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-make/commit/33670bf05f0c340119b982da037e7fb71b96847a"
         },
         "sm-plugin/sm-plugin-npm": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-npm/commit/c44276c07cce14ad4c509d4ee2c7a91b4ca873f3"
+            "pointer": "https://github.com/sourcemint/sm-plugin-npm/commit/9fb542d9c5cf69e7df32f677c554941f07dc5399"
         },
         "sm-plugin/sm-plugin-sm": {
             "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/3f3fc45c6a31963fc4adbd1512f3b0f119dfc5cb"
