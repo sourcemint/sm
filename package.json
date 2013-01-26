@@ -67,7 +67,7 @@
     "scripts": {
         "test": "node tests/_run.js",
         "build": "node scripts/build.js",
-        "publish": "sm build && sm publish --dir ./dist/npm",
+        "publish": "scripts/publish",
         "postinstall": "node ./scripts/postinstall.js"
     }
 }
