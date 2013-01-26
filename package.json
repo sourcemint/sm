@@ -28,6 +28,7 @@
         "url": "https://github.com/sourcemint/sm.git"
     },
     "pm": "sm",
+    "publish": true,
     "bin": {
         "sm": "./bin/sm-cli"
     },
