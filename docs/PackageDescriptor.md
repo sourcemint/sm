@@ -57,11 +57,15 @@ Details on properties
 
   * Where `<depName> === <pkgAlias>` and is the name of a package from the `<platformRegistry>` and `<pointer>` a [npm version range](https://npmjs.org/doc/json.html#dependencies).
   * Where packages are installed at `./<platformDepFolder>/<depName>`.
+  * Where `<pointer>` is one of [npm version range](https://npmjs.org/doc/json.html#dependencies).
 
 `mappings`
 ----------
 
   * Use the official stable (or most stable) distribution channel.
+  * Where `<pointer>` is one of:
+    * `[<pm>, <uri>, <extra>]` where `<pm>` determines valid values for `<uri>` and `<extra>` may override package descriptor.
+    * `<uri>`
 
 `bin`
 -----

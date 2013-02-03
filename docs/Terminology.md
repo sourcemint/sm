@@ -5,7 +5,7 @@ The Sourcemint terminology is inspired by and compatible with [CommonJS](http://
 
 Context abstractions:
 
-  * **System** - Embodies the idea and orchestrates *1+ Projects* into a *System* to realize the idea.
+  * **System** - Embodies the idea and animates *1+ Projects* into a cohesive unit to realize the idea.
   * **Project** - 1+ *Packages* working in harmony form a *Project* which is itself a *Package*.
   * **Service** - A service that can be consumed and controlled via an API.
   * **Ticket** - A desired change to a *Package*.
@@ -17,6 +17,7 @@ Context abstractions:
 
 Implementation abstractions:
 
+  * **System** - A booted **Program**.
   * **Program** - The *Seed* meta data that declares the *Dependency* tree (`program.json`) and runtime configuration (`program.rt.json`) for a *System*.
   * **Package** - 1+ code files working in harmony form a *Package* with a `package.json` file which may declare *Dependencies* on other *Packages*.
   * **Dependency** - A *Package* used by a more abstract *Package*.
