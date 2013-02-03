@@ -29,6 +29,7 @@ if [ "$#" -lt 1 ]; then
     # TODO: Display 'uid' instead of 'name'.
     export SM_HOME=__SM_HOME__
     export PINF_PROGRAM=__PINF_PROGRAM__
+    export PINF_PACKAGE=__PINF_PACKAGE__
     export PINF_RUNTIME=__PINF_RUNTIME__
     export PINF_MODE=__PINF_MODE__
     export SM_WORKSPACE_HOME=__SM_WORKSPACE_HOME__
