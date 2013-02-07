@@ -47,13 +47,10 @@
         "sm-plugin": "github.com/sourcemint/sm-plugin/~0.1.0",
         "sm-node-server": "github.com/sourcemint/sm-node-server/~0.1.0"
     },
-    "engines": {
-        "node": "~0.6.19"
-    },
     "optionalMappings": {
         "node": [
             "sm",
-            "http://nodejs.org/dist/v0.6.19/node-v0.6.19.tar.gz",
+            "http://nodejs.org/dist/v0.8.19/node-v0.8.19.tar.gz",
             {
                 "descriptor": {
                     "pm": "make",

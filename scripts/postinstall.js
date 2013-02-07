@@ -12,6 +12,8 @@ exports.main = function(callback) {
 
 	try {
 
+		/*
+		// @issue https://github.com/sourcemint/sm/issues/3
 		if (process.version !== "v0.6.19") {
 
 			TERM.stdout.writenl("\0red(");
@@ -28,6 +30,7 @@ exports.main = function(callback) {
 
 			return callback(true);
 		}
+		*/
 
 		var homeBasePath = CONFIG.getHomeBasePath();
 
