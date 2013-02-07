@@ -22,7 +22,6 @@ examples/
 example.*
 test.js
 sm-catalog.json
-.sm-activate-workspace
 .travis.yml
 .npmignore
 *.md

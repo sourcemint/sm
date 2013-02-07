@@ -37,8 +37,8 @@ if [ "$#" -lt 1 ]; then
     export PS1="\e[00;35msm[\e[00;33m__SM_WORKSPACE_NAME__\e[00;35m]:\e[m "
     cd "$SM_WORKSPACE_HOME"
     echo "[sm] Activating workspace: $SM_WORKSPACE_HOME"
-    if [ -f ".sm-switch" ]; then
-        rm ".sm-switch"
+    if [ -f ".sm/.switch" ]; then
+        rm ".sm/.switch"
     fi
     BIN_PATH="sm"
     if [ -n "$SM_BIN_PATH" ]; then
