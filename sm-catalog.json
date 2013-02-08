@@ -137,7 +137,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-path/commit/c6ffd16f58176807ad73569fea1b625a263c6b0f"
         },
         "sm-plugin/sm-plugin-pip": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-pip/commit/1d3b5ab6732cb12562990d42b30f40757bae592b"
+            "pointer": "https://github.com/sourcemint/sm-plugin-pip/commit/b6b1ffc7d271d96d40a774f2bda6dd1a5fa60a3c"
         },
         "sm-plugin/sm-plugin-pip/htmlparser": {
             "pointer": "http://registry.npmjs.org/htmlparser/-/htmlparser-1.7.6.tgz"
