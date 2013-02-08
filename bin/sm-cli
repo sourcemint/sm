@@ -42,13 +42,13 @@ fi
 if [ "$DIR_ARG" != "" ]; then
 	DIR_ARG="$DIR_ARG/"
 fi
-if [ -f "$DIR_ARG/.sm/.reload-shell" ]; then
-	rm "$DIR_ARG/.sm/.reload-shell"
+if [ -f "$DIR_ARG./.sm/.reload-shell" ]; then
+	rm "$DIR_ARG./.sm/.reload-shell"
 	# TODO: Call `exec bash` equivalent to re-index commands on `PATH`.
 	echo ""
 	echo "  NOTE: Run 'exec bash' to re-index commands on 'PATH'!"
 	echo ""
 fi
-if [ -f "$DIR_ARG/.sm/.switch" ]; then
-	"$DIR_ARG/.sm/.switch"
+if [ -f "$DIR_ARG./.sm/.switch" ]; then
+	"$DIR_ARG./.sm/.switch"
 fi
