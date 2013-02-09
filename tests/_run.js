@@ -3,7 +3,7 @@
 
 
 const PATH = require("path");
-const FS = require("fs");
+const FS = require("sm-util/lib/fs");
 const CONSOLE = require("sm-util/lib/console");
 const ERROR = require("sm-util/lib/error");
 const UTIL = require("sm-util/lib/util");
@@ -16,7 +16,7 @@ const CHAI = require("chai");
 exports.main = function(callback) {
 	try {
 
-    	if (!PATH.existsSync(PATH.join(__dirname, "tmp"))) {
+    	if (!FS.existsSync(PATH.join(__dirname, "tmp"))) {
     		FS.mkdirSync(PATH.join(__dirname, "tmp"));
     	}
 

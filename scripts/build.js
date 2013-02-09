@@ -1,10 +1,9 @@
 
 const PATH = require("path");
+const FS = require("sm-util/lib/fs");
 const SM_CLI = require("../lib/sm-cli");
 const ERROR = require("sm-util/lib/error");
 const COPY = require("ncp").ncp;
-const FS = require("fs");
-const FS_RECURSIVE = require("sm-util/lib/fs-recursive");
 const Q = require("sm-util/lib/q");
 const OS = require("sm-util/lib/os");
 
@@ -54,10 +53,10 @@ exports.main = function(callback) {
 				var releaseName = node.summary.name + "-" + node.summary.version;
 				var npmPath = PATH.join(__dirname, "../dist/npm");
 
-				if (PATH.existsSync(npmPath)) {
-					FS_RECURSIVE.rmdirSyncRecursive(npmPath);
+				if (FS.existsSync(npmPath)) {
+					FS.removeSync(npmPath);
 				}
-				FS_RECURSIVE.mkdirSyncRecursive(npmPath);
+				FS.mkdirsSync(npmPath);
 
 				COPY(sourcePath, npmPath, function(err) {
 					if (err) return callback(err);

@@ -1,13 +1,13 @@
 
 const PATH = require("path");
-const FS = require("fs");
+const FS = require("sm-util/lib/fs");
 const SM_CLI = require("../lib/sm-cli");
 const ERROR = require("sm-util/lib/error");
 
 
 try {
 
-	if (PATH.existsSync(PATH.join(process.cwd(), ".sm", ".switch"))) {
+	if (FS.existsSync(PATH.join(process.cwd(), ".sm", ".switch"))) {
 		FS.unlinkSync(PATH.join(process.cwd(), ".sm", ".switch"));
 	}
 

@@ -1,5 +1,6 @@
 
 const PATH = require("path");
+const FS = require("sm-util/lib/fs");
 const RUN = require("./_run");
 const EXPECT = require("chai").expect;
 const Q = require("sm-util/lib/q");
@@ -104,7 +105,7 @@ describe("sm-cli", function() {
 						"--delete",
 						"https://github.com/sourcemint/test-package2"
 					]).then(function(result) {
-						EXPECT(PATH.existsSync(PATH.join(__dirname, "tmp/sm-cli-clone-1/.git"))).to.equal(false);
+						EXPECT(FS.existsSync(PATH.join(__dirname, "tmp/sm-cli-clone-1/.git"))).to.equal(false);
 						require(PATH.join(__dirname, "tmp/sm-cli-clone-1/test.js")).main(function(err) {
 							EXPECT(err).to.equal(null);
 							return done();
@@ -121,7 +122,7 @@ describe("sm-cli", function() {
 						"--delete",
 						"https://github.com/sourcemint/test-package2"
 					]).then(function(result) {
-						EXPECT(PATH.existsSync(PATH.join(__dirname, "tmp/sm-cli-clone-2/.git"))).to.equal(true);
+						EXPECT(FS.existsSync(PATH.join(__dirname, "tmp/sm-cli-clone-2/.git"))).to.equal(true);
 						require(PATH.join(__dirname, "tmp/sm-cli-clone-1/test.js")).main(function(err) {
 							EXPECT(err).to.equal(null);
 							return done();

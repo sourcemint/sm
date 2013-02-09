@@ -1,7 +1,7 @@
 
 const ASSERT = require("assert");
 const PATH = require("path");
-const FS = require("fs");
+const FS = require("sm-util/lib/fs");
 const TERM = require("sm-util/lib/term");
 const ERROR = require("sm-util/lib/error");
 const CONFIG = require("../lib/config");
@@ -34,7 +34,7 @@ exports.main = function(callback) {
 
 		var homeBasePath = CONFIG.getHomeBasePath();
 
-		if (PATH.existsSync(homeBasePath)) {
+		if (FS.existsSync(homeBasePath)) {
 
 			// Default sm toolchain already setup.
 
@@ -55,7 +55,7 @@ exports.main = function(callback) {
 
 			TERM.stdout.writenl("Installing default sm toolchain at: " + homeBasePath);
 
-			if (!PATH.existsSync(homeBasePath)) {
+			if (!FS.existsSync(homeBasePath)) {
 				FS.mkdirSync(homeBasePath);
 			}
 

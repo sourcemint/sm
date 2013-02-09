@@ -1,5 +1,6 @@
 
 const PATH = require("path");
+const FS = require("sm-util/lib/fs");
 const SPAWN = require("child_process").spawn;
 const TERM = require("sm-util/lib/term");
 const ERROR = require("sm-util/lib/error");
@@ -12,7 +13,7 @@ exports.main = function(callback) {
 	var certificatePath = PATH.join(__dirname, "../config/proxy-ssl.crt");
 
 	function ensurePrivateKey(callback) {
-		if (PATH.existsSync(privateKeyPath)) return callback(null);
+		if (FS.existsSync(privateKeyPath)) return callback(null);
 		call("/usr/bin/ssh-keygen", [
 			"-t", "rsa",
 			"-f", privateKeyPath
@@ -20,7 +21,7 @@ exports.main = function(callback) {
 	}
 
 	function ensureCsr(callback) {
-		if (PATH.existsSync(csrPath)) return callback(null);
+		if (FS.existsSync(csrPath)) return callback(null);
 		call("/usr/bin/openssl", [
 			"req",
 			"-new",
@@ -31,7 +32,7 @@ exports.main = function(callback) {
 	}
 
 	function ensureCertificate(callback) {
-		if (PATH.existsSync(certificatePath)) return callback(null);
+		if (FS.existsSync(certificatePath)) return callback(null);
 		call("/usr/bin/openssl", [
 			"x509",
 			"-req",
