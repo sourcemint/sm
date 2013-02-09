@@ -149,12 +149,29 @@ describe("sm-cli", function() {
 
 		        it("`run` should call 'run' script", function(done) {
 		        	return callCli([
+						"--format", "JSON",
 						"run",
 						"--dir", PATH.join(__dirname, "tmp/sm-cli-clone-3")
 					]).then(function(result) {
 						EXPECT(result).to.be.a("object");
 						EXPECT(result.stdout).to.be.a("string");
-						EXPECT(result.stdout).to.equal(".\n");
+						EXPECT(result.stdout).to.equal("production arg\n");
+						EXPECT(result.stderr).to.be.a("string");
+						EXPECT(result.stderr).to.equal("");
+						return done();
+					}).fail(done);
+		        });
+
+		        it("`run --mode dev` should call 'run' script with `PINF_MODE` set to 'dev'", function(done) {
+		        	return callCli([
+						"--format", "JSON",
+						"run",
+						"--mode", "dev",
+						"--dir", PATH.join(__dirname, "tmp/sm-cli-clone-3")
+					]).then(function(result) {
+						EXPECT(result).to.be.a("object");
+						EXPECT(result.stdout).to.be.a("string");
+						EXPECT(result.stdout).to.equal("dev arg\n");
 						EXPECT(result.stderr).to.be.a("string");
 						EXPECT(result.stderr).to.equal("");
 						return done();
