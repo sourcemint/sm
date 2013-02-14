@@ -22,8 +22,8 @@ This will provide a console environment with the following features:
   * Environment variables:
     * `SM_HOME` path to root directory of toolchain (package with `sm` as dependency typically at `~/.sm`).
     * `SM_WORKSPACE_HOME` path to root of workspace.
-    * `PINF_PROGRAM` a local filesystem path to a `program.json` file (what to boot).
-    * `PINF_PACKAGE` a local filesystem path to the directory that holds the code to boot.
+    * `PINF_PROGRAM` a local filesystem path to a `program.json` file (how to boot).
+    * `PINF_PACKAGE` a local filesystem path to a `package.json` file (what to boot).
     * `PINF_RUNTIME` a local filesystem path to a `program.rt.json` file (the state to boot in).
     * `PINF_MODE` the mode the runtime should run it. Will load `program.$PINF_MODE.json`.
 
