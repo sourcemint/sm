@@ -31,6 +31,45 @@
         "ncp": {
             "pointer": "http://registry.npmjs.org/ncp/-/ncp-0.2.6.tgz"
         },
+        "pinf": {
+            "pointer": "http://registry.npmjs.org/pinf/-/pinf-0.2.2.tgz"
+        },
+        "pinf/deepmerge": {
+            "pointer": "http://registry.npmjs.org/deepmerge/-/deepmerge-0.2.5.tgz"
+        },
+        "pinf/fs-extra": {
+            "pointer": "http://registry.npmjs.org/fs-extra/-/fs-extra-0.3.2.tgz"
+        },
+        "pinf/fs-extra/jsonfile": {
+            "pointer": "http://registry.npmjs.org/jsonfile/-/jsonfile-0.0.1.tgz"
+        },
+        "pinf/fs-extra/mkdirp": {
+            "pointer": "http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz"
+        },
+        "pinf/fs-extra/ncp": {
+            "pointer": "http://registry.npmjs.org/ncp/-/ncp-0.2.6.tgz"
+        },
+        "pinf/fs-extra/rimraf": {
+            "pointer": "http://registry.npmjs.org/rimraf/-/rimraf-2.0.3.tgz"
+        },
+        "pinf/fs-extra/rimraf/graceful-fs": {
+            "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
+        },
+        "pinf/jsonlint": {
+            "pointer": "http://registry.npmjs.org/jsonlint/-/jsonlint-1.5.1.tgz"
+        },
+        "pinf/jsonlint/JSV": {
+            "pointer": "http://registry.npmjs.org/JSV/-/JSV-4.0.2.tgz"
+        },
+        "pinf/jsonlint/nomnom": {
+            "pointer": "http://registry.npmjs.org/nomnom/-/nomnom-1.5.3.tgz"
+        },
+        "pinf/jsonlint/nomnom/colors": {
+            "pointer": "http://registry.npmjs.org/colors/-/colors-0.5.1.tgz"
+        },
+        "pinf/jsonlint/nomnom/underscore": {
+            "pointer": "http://registry.npmjs.org/underscore/-/underscore-1.1.7.tgz"
+        },
         "semver": {
             "pointer": "http://registry.npmjs.org/semver/-/semver-1.1.0.tgz"
         },
@@ -59,7 +98,7 @@
             "pointer": "http://registry.npmjs.org/mime/-/mime-1.2.7.tgz"
         },
         "sm-node-server/sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/57d12217a570af9819e7f84757d3bd9c46659aa9"
+            "pointer": "https://github.com/sourcemint/sm-util/commit/bb987bbf3e222439d141a1bfeb83b9e2e7479222"
         },
         "sm-plugin": {
             "pointer": "https://github.com/sourcemint/sm-plugin/commit/43770be235cef790680a73fa129d8df3c12f36e2"
@@ -89,7 +128,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-git/commit/1aad034cbf6ef710886482297c16f3e65ada4502"
         },
         "sm-plugin/sm-plugin-github": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/2b0af53ed7a458a5e2abd74a98f92ed417ce131e"
+            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/c2bd221ba990f37abbb7ac2a6f0556b67a868622"
         },
         "sm-plugin/sm-plugin-github/github": {
             "pointer": "http://registry.npmjs.org/github/-/github-0.1.7.tgz"
@@ -272,7 +311,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-zip/commit/0901feb40e71b85ebbb041b23fe16faba3a5fd53"
         },
         "sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/57d12217a570af9819e7f84757d3bd9c46659aa9"
+            "pointer": "https://github.com/sourcemint/sm-util/commit/bb987bbf3e222439d141a1bfeb83b9e2e7479222"
         },
         "sm-util/console-trace": {
             "pointer": "http://registry.npmjs.org/console-trace/-/console-trace-0.2.1.tgz"
