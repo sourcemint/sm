@@ -40,7 +40,8 @@
         "http-proxy": "0.8.x",
         "mappings": "0.2.x",
         "winston": "0.6.x",
-        "ncp": "~0.2.6"
+        "ncp": "~0.2.6",
+        "pinf": "~0.2.1"
     },
     "mappings": {
         "sm-util": "github.com/sourcemint/sm-util/~0.1.0",
