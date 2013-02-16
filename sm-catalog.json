@@ -128,7 +128,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-git/commit/1aad034cbf6ef710886482297c16f3e65ada4502"
         },
         "sm-plugin/sm-plugin-github": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/c2bd221ba990f37abbb7ac2a6f0556b67a868622"
+            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/38ae1867a719ca63aa3074643e1d74b3455be5b9"
         },
         "sm-plugin/sm-plugin-github/github": {
             "pointer": "http://registry.npmjs.org/github/-/github-0.1.7.tgz"
@@ -182,7 +182,7 @@
             "pointer": "http://registry.npmjs.org/htmlparser/-/htmlparser-1.7.6.tgz"
         },
         "sm-plugin/sm-plugin-sm": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/a690e415183b59579fcdd36e1d82f576e8697db3"
+            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/28d8974f659053f31d6752c63f29cb8138ef5e8c"
         },
         "sm-plugin/sm-plugin-sm/graceful-fs": {
             "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
@@ -264,6 +264,21 @@
         },
         "sm-plugin/sm-plugin-sm/istanbul/wordwrap": {
             "pointer": "http://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz"
+        },
+        "sm-plugin/sm-plugin-sm/knox": {
+            "pointer": "http://registry.npmjs.org/knox/-/knox-0.5.3.tgz"
+        },
+        "sm-plugin/sm-plugin-sm/knox/debug": {
+            "pointer": "http://registry.npmjs.org/debug/-/debug-0.7.2.tgz"
+        },
+        "sm-plugin/sm-plugin-sm/knox/mime": {
+            "pointer": "http://registry.npmjs.org/mime/-/mime-1.2.9.tgz"
+        },
+        "sm-plugin/sm-plugin-sm/knox/xml2js": {
+            "pointer": "http://registry.npmjs.org/xml2js/-/xml2js-0.2.4.tgz"
+        },
+        "sm-plugin/sm-plugin-sm/knox/xml2js/sax": {
+            "pointer": "http://registry.npmjs.org/sax/-/sax-0.5.1.tgz"
         },
         "sm-plugin/sm-plugin-sm/ncp": {
             "pointer": "http://registry.npmjs.org/ncp/-/ncp-0.2.6.tgz"
