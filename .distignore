@@ -8,6 +8,7 @@
 /dist/
 !/scripts/postinstall.js
 jsdoc-toolkit/
+index.html
 /scripts/
 docs/
 design/
