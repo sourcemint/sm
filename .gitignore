@@ -1,4 +1,5 @@
 /dist/brew/node_modules/
 /dist/source/
 /dist/npm/
+/dist/sm/
 /node_modules/

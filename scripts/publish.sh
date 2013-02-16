@@ -16,6 +16,11 @@ if [ $? -ne 0 ] ; then
   exit 1
 fi
 
+sm publish --dir "$BASE_PATH/../dist/sm"
+if [ $? -ne 0 ] ; then
+  exit 1
+fi
+
 sm publish --dir "$BASE_PATH/../dist/npm"
 if [ $? -ne 0 ] ; then
   exit 1

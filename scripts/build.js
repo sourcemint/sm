@@ -3,7 +3,6 @@ const PATH = require("path");
 const FS = require("sm-util/lib/fs");
 const SM_CLI = require("../lib/sm-cli");
 const ERROR = require("sm-util/lib/error");
-const COPY = require("ncp").ncp;
 const Q = require("sm-util/lib/q");
 const OS = require("sm-util/lib/os");
 
@@ -58,7 +57,7 @@ exports.main = function(callback) {
 				}
 				FS.mkdirsSync(npmPath);
 
-				COPY(sourcePath, npmPath, function(err) {
+				FS.copy(sourcePath, npmPath, function(err) {
 					if (err) return callback(err);
 
 					var descriptor = JSON.parse(FS.readFileSync(PATH.join(npmPath, "package.json")));
@@ -77,7 +76,23 @@ exports.main = function(callback) {
 
 						FS.renameSync(PATH.join(npmPath, releaseName + ".tgz"), PATH.join(npmPath, "../" + releaseName + ".tgz"));
 */
-						return callback(null);
+
+						// Create S3 package.
+
+						var smPath = PATH.join(__dirname, "../dist/sm");
+
+						if (FS.existsSync(smPath)) {
+							FS.removeSync(smPath);
+						}
+						FS.mkdirsSync(smPath);
+
+						FS.copy(npmPath, smPath, function(err) {
+							if (err) return callback(err);
+							var descriptor = JSON.parse(FS.readFileSync(PATH.join(smPath, "package.json")));
+							descriptor.pm = "sm";
+				            FS.writeFileSync(PATH.join(smPath, "package.json"), JSON.stringify(descriptor, null, 4));
+							return callback(null);
+						});
 //					}, callback);
 				});
 			}, callback);
