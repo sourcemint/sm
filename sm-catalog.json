@@ -32,7 +32,7 @@
             "pointer": "http://registry.npmjs.org/ncp/-/ncp-0.2.6.tgz"
         },
         "pinf": {
-            "pointer": "http://registry.npmjs.org/pinf/-/pinf-0.2.3.tgz"
+            "pointer": "http://registry.npmjs.org/pinf/-/pinf-0.2.4.tgz"
         },
         "pinf/deepmerge": {
             "pointer": "http://registry.npmjs.org/deepmerge/-/deepmerge-0.2.5.tgz"
