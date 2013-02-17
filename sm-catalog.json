@@ -182,7 +182,7 @@
             "pointer": "http://registry.npmjs.org/htmlparser/-/htmlparser-1.7.6.tgz"
         },
         "sm-plugin/sm-plugin-sm": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/28d8974f659053f31d6752c63f29cb8138ef5e8c"
+            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/a7b320ecfef15d9c516fa6fb0603b56eede8be98"
         },
         "sm-plugin/sm-plugin-sm/graceful-fs": {
             "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
