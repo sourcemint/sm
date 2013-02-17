@@ -69,6 +69,10 @@ exports.main = function(callback) {
 		            FS.writeFileSync(PATH.join(npmPath, ".npmignore"), [
 		            	".sm/"
 		            ].join("\n"));
+
+		            // TODO: Remove this once `.npmignore` file works properly.
+		            FS.removeSync(PATH.join(npmPath, "node_modules/sm-plugin/node_modules/sm-plugin-7zip"));
+
 /*
 					OS.spawnInline("npm", [ "pack" ], {
 						cwd: npmPath
