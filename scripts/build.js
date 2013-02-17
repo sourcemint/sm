@@ -67,8 +67,7 @@ exports.main = function(callback) {
 
 		            FS.writeFileSync(PATH.join(npmPath, "package.json"), JSON.stringify(descriptor, null, 4));					
 		            FS.writeFileSync(PATH.join(npmPath, ".npmignore"), [
-		            	".sm/",
-		            	"node_modules/sm-plugin/node_modules/sm-plugin-7zip/"
+		            	".sm/"
 		            ].join("\n"));
 /*
 					OS.spawnInline("npm", [ "pack" ], {
