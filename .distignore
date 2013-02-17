@@ -25,7 +25,6 @@ example.*
 test.js
 sm-catalog.json
 .travis.yml
-.npmignore
 *.md
 *.markdown
 *.txt
