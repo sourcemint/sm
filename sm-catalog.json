@@ -98,10 +98,10 @@
             "pointer": "http://registry.npmjs.org/mime/-/mime-1.2.7.tgz"
         },
         "sm-node-server/sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/bb987bbf3e222439d141a1bfeb83b9e2e7479222"
+            "pointer": "https://github.com/sourcemint/sm-util/commit/6920798317f58aba9631278eb17e27ebb4a36359"
         },
         "sm-plugin": {
-            "pointer": "https://github.com/sourcemint/sm-plugin/commit/43770be235cef790680a73fa129d8df3c12f36e2"
+            "pointer": "https://github.com/sourcemint/sm-plugin/commit/0bc5855a1124060f89554a3a9270c1c1b451f2d2"
         },
         "sm-plugin/sm-plugin-7zip": {
             "pointer": "https://github.com/sourcemint/sm-plugin-7zip/commit/e78534f40debe371e9dddf4ba16ab5396412c86d"
@@ -125,10 +125,10 @@
             "pointer": "http://pypi.python.org/packages/source/d/dotcloud/dotcloud-0.9.4.tar.gz"
         },
         "sm-plugin/sm-plugin-git": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-git/commit/1aad034cbf6ef710886482297c16f3e65ada4502"
+            "pointer": "https://github.com/sourcemint/sm-plugin-git/commit/1e45f29b64bbff3edd122d19a8312da9f74ad2cd"
         },
         "sm-plugin/sm-plugin-github": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/38ae1867a719ca63aa3074643e1d74b3455be5b9"
+            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/c12ea8da9f02c51bcce2e5814d5d7351289b28bc"
         },
         "sm-plugin/sm-plugin-github/github": {
             "pointer": "http://registry.npmjs.org/github/-/github-0.1.7.tgz"
@@ -182,7 +182,7 @@
             "pointer": "http://registry.npmjs.org/htmlparser/-/htmlparser-1.7.6.tgz"
         },
         "sm-plugin/sm-plugin-sm": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/0d381e6604f4d5649e0a4c7e214d453dd792fa3e"
+            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/9e70e3de25839e04edad2a4f8b919a8e6424a83e"
         },
         "sm-plugin/sm-plugin-sm/graceful-fs": {
             "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
@@ -326,7 +326,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-zip/commit/0901feb40e71b85ebbb041b23fe16faba3a5fd53"
         },
         "sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/bb987bbf3e222439d141a1bfeb83b9e2e7479222"
+            "pointer": "https://github.com/sourcemint/sm-util/commit/6920798317f58aba9631278eb17e27ebb4a36359"
         },
         "sm-util/console-trace": {
             "pointer": "http://registry.npmjs.org/console-trace/-/console-trace-0.2.1.tgz"
@@ -338,7 +338,7 @@
             "pointer": "http://registry.npmjs.org/deepmerge/-/deepmerge-0.2.5.tgz"
         },
         "sm-util/fs-extra": {
-            "pointer": "http://registry.npmjs.org/fs-extra/-/fs-extra-0.3.2.tgz"
+            "pointer": "http://registry.npmjs.org/fs-extra/-/fs-extra-0.5.0.tgz"
         },
         "sm-util/fs-extra/jsonfile": {
             "pointer": "http://registry.npmjs.org/jsonfile/-/jsonfile-0.0.1.tgz"
@@ -350,10 +350,10 @@
             "pointer": "http://registry.npmjs.org/ncp/-/ncp-0.2.6.tgz"
         },
         "sm-util/fs-extra/rimraf": {
-            "pointer": "http://registry.npmjs.org/rimraf/-/rimraf-2.0.3.tgz"
+            "pointer": "http://registry.npmjs.org/rimraf/-/rimraf-2.1.4.tgz"
         },
         "sm-util/fs-extra/rimraf/graceful-fs": {
-            "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
+            "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.2.0.tgz"
         },
         "sm-util/glob": {
             "pointer": "http://registry.npmjs.org/glob/-/glob-3.1.16.tgz"
