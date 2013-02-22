@@ -128,7 +128,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-git/commit/1e45f29b64bbff3edd122d19a8312da9f74ad2cd"
         },
         "sm-plugin/sm-plugin-github": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/ae637d516065ba6902919d0c7bd8f0f4bd4e1eb6"
+            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/61ba87ab21bac74c4be987e8a4411ea07ef11318"
         },
         "sm-plugin/sm-plugin-github/github": {
             "pointer": "http://registry.npmjs.org/github/-/github-0.1.7.tgz"
