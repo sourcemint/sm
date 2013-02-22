@@ -2,7 +2,7 @@
     "uid": "github.com/sourcemint/sm/",
     "name": "sm",
     "description": "Sourcemint Open Source Tooling ~ Package Management. Evolved.",
-    "version": "0.3.6-pre.41",
+    "version": "0.3.6-pre.42",
     "license": "MIT",
     "author": "Christoph Dorn <christoph@christophdorn.com> (http://christophdorn.com)",
     "maintainers": [
