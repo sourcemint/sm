@@ -98,7 +98,7 @@
             "pointer": "http://registry.npmjs.org/mime/-/mime-1.2.7.tgz"
         },
         "sm-node-server/sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/0b6f7ab233f194d0c87feadd4363872bce7bc1e4"
+            "pointer": "https://github.com/sourcemint/sm-util/commit/a124924e2d4e6dfe22b6e8973519654d48c3ba71"
         },
         "sm-plugin": {
             "pointer": "https://github.com/sourcemint/sm-plugin/commit/7071e1a3d1856c695aaf5b7f3ec2b7cb4ea828aa"
@@ -182,7 +182,7 @@
             "pointer": "http://registry.npmjs.org/htmlparser/-/htmlparser-1.7.6.tgz"
         },
         "sm-plugin/sm-plugin-sm": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/880cf4e99c5132db956f5574fc309152cc4989fd"
+            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/844a76e2e27f09fd5ec3d9ac578f5ff530ef6257"
         },
         "sm-plugin/sm-plugin-sm/graceful-fs": {
             "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
@@ -287,7 +287,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-stree/commit/ed3d8cd871157137597a0ede526c92c741acbf96"
         },
         "sm-plugin/sm-plugin-symlink": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-symlink/commit/b59aeba54ae4f76cfb4dab91f7c82cd697f913dc"
+            "pointer": "https://github.com/sourcemint/sm-plugin-symlink/commit/ceb22f333fab151a7308afa44ee63bc1c74c88cb"
         },
         "sm-plugin/sm-plugin-tar": {
             "pointer": "https://github.com/sourcemint/sm-plugin-tar/commit/1cfd50b9fb75ece2811a21fe4aa8704b1f38f7d3"
@@ -329,7 +329,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-zip/commit/0901feb40e71b85ebbb041b23fe16faba3a5fd53"
         },
         "sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/0b6f7ab233f194d0c87feadd4363872bce7bc1e4"
+            "pointer": "https://github.com/sourcemint/sm-util/commit/a124924e2d4e6dfe22b6e8973519654d48c3ba71"
         },
         "sm-util/console-trace": {
             "pointer": "http://registry.npmjs.org/console-trace/-/console-trace-0.2.1.tgz"
