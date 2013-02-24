@@ -182,7 +182,7 @@
             "pointer": "http://registry.npmjs.org/htmlparser/-/htmlparser-1.7.6.tgz"
         },
         "sm-plugin/sm-plugin-sm": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/581c76c794c94972d4e888ac21ece4dab9436cfa"
+            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/a8319dd92bb32eb0ea556268ca02515aa1b99be7"
         },
         "sm-plugin/sm-plugin-sm/graceful-fs": {
             "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
@@ -287,7 +287,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-stree/commit/ed3d8cd871157137597a0ede526c92c741acbf96"
         },
         "sm-plugin/sm-plugin-symlink": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-symlink/commit/ceb22f333fab151a7308afa44ee63bc1c74c88cb"
+            "pointer": "https://github.com/sourcemint/sm-plugin-symlink/commit/971bdf687808ba7754c09e0eca0399d4a3747db1"
         },
         "sm-plugin/sm-plugin-tar": {
             "pointer": "https://github.com/sourcemint/sm-plugin-tar/commit/1cfd50b9fb75ece2811a21fe4aa8704b1f38f7d3"
