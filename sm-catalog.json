@@ -32,7 +32,7 @@
             "pointer": "http://registry.npmjs.org/ncp/-/ncp-0.2.6.tgz"
         },
         "pinf": {
-            "pointer": "http://registry.npmjs.org/pinf/-/pinf-0.2.8.tgz"
+            "pointer": "http://registry.npmjs.org/pinf/-/pinf-0.2.12.tgz"
         },
         "pinf/deepmerge": {
             "pointer": "http://registry.npmjs.org/deepmerge/-/deepmerge-0.2.5.tgz"
@@ -98,7 +98,7 @@
             "pointer": "http://registry.npmjs.org/mime/-/mime-1.2.7.tgz"
         },
         "sm-node-server/sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/a124924e2d4e6dfe22b6e8973519654d48c3ba71"
+            "pointer": "https://github.com/sourcemint/sm-util/commit/dd326c9a4e1229d04fdd1aa45dbd376bfa63fda7"
         },
         "sm-plugin": {
             "pointer": "https://github.com/sourcemint/sm-plugin/commit/7071e1a3d1856c695aaf5b7f3ec2b7cb4ea828aa"
@@ -125,7 +125,7 @@
             "pointer": "http://pypi.python.org/packages/source/d/dotcloud/dotcloud-0.9.4.tar.gz"
         },
         "sm-plugin/sm-plugin-git": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-git/commit/1e45f29b64bbff3edd122d19a8312da9f74ad2cd"
+            "pointer": "https://github.com/sourcemint/sm-plugin-git/commit/371400b9b2ab5b3b7aefbcc54b9a1da2cc05b091"
         },
         "sm-plugin/sm-plugin-github": {
             "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/5b5db26ab80a7a851223418102bba8ecc9691b1c"
@@ -329,7 +329,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-zip/commit/0901feb40e71b85ebbb041b23fe16faba3a5fd53"
         },
         "sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/a124924e2d4e6dfe22b6e8973519654d48c3ba71"
+            "pointer": "https://github.com/sourcemint/sm-util/commit/dd326c9a4e1229d04fdd1aa45dbd376bfa63fda7"
         },
         "sm-util/console-trace": {
             "pointer": "http://registry.npmjs.org/console-trace/-/console-trace-0.2.1.tgz"
