@@ -104,10 +104,10 @@
             "pointer": "http://registry.npmjs.org/mime/-/mime-1.2.7.tgz"
         },
         "sm-node-server/sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/4a2218a2d54ea2bbe6dc98b717fa0c92698c174c"
+            "pointer": "https://github.com/sourcemint/sm-util/commit/3f24aaa559e0db43c5670dcc5f1ebe6e9d772da6"
         },
         "sm-plugin": {
-            "pointer": "https://github.com/sourcemint/sm-plugin/commit/7071e1a3d1856c695aaf5b7f3ec2b7cb4ea828aa"
+            "pointer": "https://github.com/sourcemint/sm-plugin/commit/91eee0baa3630a0164c9b8b17b86e9b1d3acd038"
         },
         "sm-plugin/sm-plugin-7zip": {
             "pointer": "https://github.com/sourcemint/sm-plugin-7zip/commit/e78534f40debe371e9dddf4ba16ab5396412c86d"
@@ -134,10 +134,10 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-git/commit/1b04df49a74b7f42fd6e36bc55637bd5d8173aff"
         },
         "sm-plugin/sm-plugin-github": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/5b5db26ab80a7a851223418102bba8ecc9691b1c"
+            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/c2f76136da852d5160c8eeaf059037976b6c3efb"
         },
         "sm-plugin/sm-plugin-github/github": {
-            "pointer": "http://registry.npmjs.org/github/-/github-0.1.7.tgz"
+            "pointer": "https://github.com/sourcemint/node-github/commit/12a7e92af6a34c06f2e9bd8196100b259eae9199"
         },
         "sm-plugin/sm-plugin-gzip": {
             "pointer": "https://github.com/sourcemint/sm-plugin-gzip/commit/d253679abda8ae084f91aa7b9eba7a3cd1116a6e"
@@ -188,7 +188,7 @@
             "pointer": "http://registry.npmjs.org/htmlparser/-/htmlparser-1.7.6.tgz"
         },
         "sm-plugin/sm-plugin-sm": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/f2b9aff74c3cb643694d4c0ab286bcfc775476d3"
+            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/2db20a8ef160a5637cb463fe6aee20666472eaf5"
         },
         "sm-plugin/sm-plugin-sm/graceful-fs": {
             "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
@@ -335,7 +335,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-zip/commit/0901feb40e71b85ebbb041b23fe16faba3a5fd53"
         },
         "sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/4a2218a2d54ea2bbe6dc98b717fa0c92698c174c"
+            "pointer": "https://github.com/sourcemint/sm-util/commit/3f24aaa559e0db43c5670dcc5f1ebe6e9d772da6"
         },
         "sm-util/console-trace": {
             "pointer": "http://registry.npmjs.org/console-trace/-/console-trace-0.2.1.tgz"
