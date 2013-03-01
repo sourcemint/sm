@@ -104,7 +104,7 @@
             "pointer": "http://registry.npmjs.org/mime/-/mime-1.2.7.tgz"
         },
         "sm-node-server/sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/3f24aaa559e0db43c5670dcc5f1ebe6e9d772da6"
+            "pointer": "https://github.com/sourcemint/sm-util/commit/8ebc79df8d4349786eb16fb4883bd4129b30bb65"
         },
         "sm-plugin": {
             "pointer": "https://github.com/sourcemint/sm-plugin/commit/91eee0baa3630a0164c9b8b17b86e9b1d3acd038"
@@ -134,7 +134,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-git/commit/1b04df49a74b7f42fd6e36bc55637bd5d8173aff"
         },
         "sm-plugin/sm-plugin-github": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/c2f76136da852d5160c8eeaf059037976b6c3efb"
+            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/aeeb8daa71abfb355ef6f2e16455af5073732398"
         },
         "sm-plugin/sm-plugin-github/github": {
             "pointer": "https://github.com/sourcemint/node-github/commit/12a7e92af6a34c06f2e9bd8196100b259eae9199"
@@ -335,7 +335,7 @@
             "pointer": "https://github.com/sourcemint/sm-plugin-zip/commit/0901feb40e71b85ebbb041b23fe16faba3a5fd53"
         },
         "sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/3f24aaa559e0db43c5670dcc5f1ebe6e9d772da6"
+            "pointer": "https://github.com/sourcemint/sm-util/commit/8ebc79df8d4349786eb16fb4883bd4129b30bb65"
         },
         "sm-util/console-trace": {
             "pointer": "http://registry.npmjs.org/console-trace/-/console-trace-0.2.1.tgz"
