@@ -296,7 +296,7 @@
             "archive": "https://github.com/sourcemint/sm-plugin-zip/tarball/0901feb40e71b85ebbb041b23fe16faba3a5fd53"
         },
         "sm-util": {
-            "archive": "https://github.com/sourcemint/sm-util/tarball/77dcfecbb9c25e7f13f0f9d8c9f010b3780af3ee"
+            "archive": "https://github.com/sourcemint/sm-util/tarball/1a7d4a9f93cac40788667c64f6357f733cab2582"
         },
         "sm-util/console-trace": {
             "archive": "http://registry.npmjs.org/console-trace/-/console-trace-0.2.1.tgz"
