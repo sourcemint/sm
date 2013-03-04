@@ -26,13 +26,13 @@
             "archive": "http://registry.npmjs.org/pkginfo/-/pkginfo-0.2.3.tgz"
         },
         "mappings": {
-            "archive": "http://registry.npmjs.org/mappings/-/mappings-0.2.1.tgz"
+            "archive": "https://github.com/sourcemint/sm-mappings-npm/tarball/2e293efc9b50c9ea60521cfdc811eb79ed538f2f"
         },
         "ncp": {
             "archive": "http://registry.npmjs.org/ncp/-/ncp-0.2.6.tgz"
         },
         "pinf": {
-            "archive": "http://registry.npmjs.org/pinf/-/pinf-0.2.15.tgz"
+            "archive": "https://github.com/sourcemint/sm-pinf-npm/tarball/3af9f57f9cb09209e2a3c0ff05cd052cdc1b6af8"
         },
         "pinf/deepmerge": {
             "archive": "http://registry.npmjs.org/deepmerge/-/deepmerge-0.2.5.tgz"
@@ -116,7 +116,7 @@
             "archive": "http://downloads.sourceforge.net/project/p7zip/p7zip/9.20.1/p7zip_9.20.1_src_all.tar.bz2"
         },
         "sm-plugin/sm-plugin-archive": {
-            "archive": "https://github.com/sourcemint/sm-plugin-archive/tarball/117f08203ad8c1716b13ddca3b0c2fbb9342f02e"
+            "archive": "https://github.com/sourcemint/sm-plugin-archive/tarball/3cbc30688eab6af74e510bb0793c10f0de8285de"
         },
         "sm-plugin/sm-plugin-bzip": {
             "archive": "https://github.com/sourcemint/sm-plugin-bzip/tarball/a271470512e8c3960db1fd1df1240dc320ab9c60"
@@ -131,7 +131,7 @@
             "archive": "http://pypi.python.org/packages/source/d/dotcloud/dotcloud-0.9.4.tar.gz"
         },
         "sm-plugin/sm-plugin-git": {
-            "archive": "https://github.com/sourcemint/sm-plugin-git/tarball/1b04df49a74b7f42fd6e36bc55637bd5d8173aff"
+            "archive": "https://github.com/sourcemint/sm-plugin-git/tarball/d552624e5427dd221e9bbc2a6cbcc1fe4654f050"
         },
         "sm-plugin/sm-plugin-github": {
             "archive": "https://github.com/sourcemint/sm-plugin-github/tarball/a7553e2a1825ff1cfa8ae0e80c18b364e1b83e00"
