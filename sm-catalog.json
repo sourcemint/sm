@@ -188,7 +188,7 @@
             "archive": "http://registry.npmjs.org/htmlparser/-/htmlparser-1.7.6.tgz"
         },
         "sm-plugin/sm-plugin-sm": {
-            "archive": "https://github.com/sourcemint/sm-plugin-sm/tarball/2db20a8ef160a5637cb463fe6aee20666472eaf5"
+            "archive": "https://github.com/sourcemint/sm-plugin-sm/tarball/b6bf4009b87116e4ea2b4d76af6661a63e4ef8af"
         },
         "sm-plugin/sm-plugin-sm/graceful-fs": {
             "archive": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
