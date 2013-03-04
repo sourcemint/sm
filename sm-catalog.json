@@ -2,433 +2,394 @@
     "#": "To update this file based on the current dependency tree run: `sm save`",
     "packages": {
         "commander": {
-            "pointer": "http://registry.npmjs.org/commander/-/commander-1.0.5.tgz"
+            "archive": "http://registry.npmjs.org/commander/-/commander-1.0.5.tgz"
         },
         "commander/keypress": {
-            "pointer": "http://registry.npmjs.org/keypress/-/keypress-0.1.0.tgz"
+            "archive": "http://registry.npmjs.org/keypress/-/keypress-0.1.0.tgz"
         },
         "graceful-fs": {
-            "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
+            "archive": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
         },
         "http-proxy": {
-            "pointer": "http://registry.npmjs.org/http-proxy/-/http-proxy-0.8.5.tgz"
+            "archive": "http://registry.npmjs.org/http-proxy/-/http-proxy-0.8.5.tgz"
         },
         "http-proxy/colors": {
-            "pointer": "http://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz"
+            "archive": "http://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz"
         },
         "http-proxy/optimist": {
-            "pointer": "http://registry.npmjs.org/optimist/-/optimist-0.3.5.tgz"
+            "archive": "http://registry.npmjs.org/optimist/-/optimist-0.3.5.tgz"
         },
         "http-proxy/optimist/wordwrap": {
-            "pointer": "http://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz"
+            "archive": "http://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz"
         },
         "http-proxy/pkginfo": {
-            "pointer": "http://registry.npmjs.org/pkginfo/-/pkginfo-0.2.3.tgz"
+            "archive": "http://registry.npmjs.org/pkginfo/-/pkginfo-0.2.3.tgz"
         },
         "mappings": {
-            "pointer": "http://registry.npmjs.org/mappings/-/mappings-0.2.1.tgz"
+            "archive": "http://registry.npmjs.org/mappings/-/mappings-0.2.1.tgz"
         },
         "ncp": {
-            "pointer": "http://registry.npmjs.org/ncp/-/ncp-0.2.6.tgz"
+            "archive": "http://registry.npmjs.org/ncp/-/ncp-0.2.6.tgz"
         },
         "pinf": {
-            "pointer": "http://registry.npmjs.org/pinf/-/pinf-0.2.14.tgz"
+            "archive": "http://registry.npmjs.org/pinf/-/pinf-0.2.15.tgz"
         },
         "pinf/deepmerge": {
-            "pointer": "http://registry.npmjs.org/deepmerge/-/deepmerge-0.2.5.tgz"
+            "archive": "http://registry.npmjs.org/deepmerge/-/deepmerge-0.2.5.tgz"
         },
         "pinf/fs-extra": {
-            "pointer": "http://registry.npmjs.org/fs-extra/-/fs-extra-0.3.2.tgz"
+            "archive": "http://registry.npmjs.org/fs-extra/-/fs-extra-0.3.2.tgz"
         },
         "pinf/fs-extra/jsonfile": {
-            "pointer": "http://registry.npmjs.org/jsonfile/-/jsonfile-0.0.1.tgz"
+            "archive": "http://registry.npmjs.org/jsonfile/-/jsonfile-0.0.1.tgz"
         },
         "pinf/fs-extra/mkdirp": {
-            "pointer": "http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz"
+            "archive": "http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz"
         },
         "pinf/fs-extra/ncp": {
-            "pointer": "http://registry.npmjs.org/ncp/-/ncp-0.2.6.tgz"
+            "archive": "http://registry.npmjs.org/ncp/-/ncp-0.2.6.tgz"
         },
         "pinf/fs-extra/rimraf": {
-            "pointer": "http://registry.npmjs.org/rimraf/-/rimraf-2.0.3.tgz"
+            "archive": "http://registry.npmjs.org/rimraf/-/rimraf-2.0.3.tgz"
         },
         "pinf/fs-extra/rimraf/graceful-fs": {
-            "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
+            "archive": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
         },
         "pinf/jsonlint": {
-            "pointer": "http://registry.npmjs.org/jsonlint/-/jsonlint-1.5.1.tgz"
+            "archive": "http://registry.npmjs.org/jsonlint/-/jsonlint-1.5.1.tgz"
         },
         "pinf/jsonlint/JSV": {
-            "pointer": "http://registry.npmjs.org/JSV/-/JSV-4.0.2.tgz"
+            "archive": "http://registry.npmjs.org/JSV/-/JSV-4.0.2.tgz"
         },
         "pinf/jsonlint/nomnom": {
-            "pointer": "http://registry.npmjs.org/nomnom/-/nomnom-1.5.3.tgz"
+            "archive": "http://registry.npmjs.org/nomnom/-/nomnom-1.5.3.tgz"
         },
         "pinf/jsonlint/nomnom/colors": {
-            "pointer": "http://registry.npmjs.org/colors/-/colors-0.5.1.tgz"
+            "archive": "http://registry.npmjs.org/colors/-/colors-0.5.1.tgz"
         },
         "pinf/jsonlint/nomnom/underscore": {
-            "pointer": "http://registry.npmjs.org/underscore/-/underscore-1.1.7.tgz"
+            "archive": "http://registry.npmjs.org/underscore/-/underscore-1.1.7.tgz"
         },
         "pinf/mappings": {
-            "pointer": "http://registry.npmjs.org/mappings/-/mappings-0.2.1.tgz"
+            "archive": "http://registry.npmjs.org/mappings/-/mappings-0.2.1.tgz"
         },
         "pinf/sm-util": {
-            "pointer": "http://registry.npmjs.org/sm-util/-/sm-util-0.1.10.tgz"
+            "archive": "http://registry.npmjs.org/sm-util/-/sm-util-0.1.11.tgz"
         },
         "semver": {
-            "pointer": "http://registry.npmjs.org/semver/-/semver-1.1.0.tgz"
+            "archive": "http://registry.npmjs.org/semver/-/semver-1.1.0.tgz"
         },
         "sm-node-server": {
-            "pointer": "https://github.com/sourcemint/sm-node-server/commit/18628e92bdb4094b02f857516b06f392e3a1dbeb"
+            "archive": "https://github.com/sourcemint/sm-node-server/tarball/18628e92bdb4094b02f857516b06f392e3a1dbeb"
         },
         "sm-node-server/request": {
-            "pointer": "http://registry.npmjs.org/request/-/request-2.12.0.tgz"
+            "archive": "http://registry.npmjs.org/request/-/request-2.12.0.tgz"
         },
         "sm-node-server/request/form-data": {
-            "pointer": "http://registry.npmjs.org/form-data/-/form-data-0.0.3.tgz"
+            "archive": "http://registry.npmjs.org/form-data/-/form-data-0.0.3.tgz"
         },
         "sm-node-server/request/form-data/async": {
-            "pointer": "http://registry.npmjs.org/async/-/async-0.1.9.tgz"
+            "archive": "http://registry.npmjs.org/async/-/async-0.1.9.tgz"
         },
         "sm-node-server/request/form-data/combined-stream": {
-            "pointer": "http://registry.npmjs.org/combined-stream/-/combined-stream-0.0.3.tgz"
+            "archive": "http://registry.npmjs.org/combined-stream/-/combined-stream-0.0.3.tgz"
         },
         "sm-node-server/request/form-data/combined-stream/delayed-stream": {
-            "pointer": "http://registry.npmjs.org/delayed-stream/-/delayed-stream-0.0.5.tgz"
+            "archive": "http://registry.npmjs.org/delayed-stream/-/delayed-stream-0.0.5.tgz"
         },
         "sm-node-server/request/form-data/mime": {
-            "pointer": "http://registry.npmjs.org/mime/-/mime-1.2.7.tgz"
+            "archive": "http://registry.npmjs.org/mime/-/mime-1.2.7.tgz"
         },
         "sm-node-server/request/mime": {
-            "pointer": "http://registry.npmjs.org/mime/-/mime-1.2.7.tgz"
+            "archive": "http://registry.npmjs.org/mime/-/mime-1.2.7.tgz"
         },
         "sm-node-server/sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/8ebc79df8d4349786eb16fb4883bd4129b30bb65"
+            "archive": "https://github.com/sourcemint/sm-util/tarball/77dcfecbb9c25e7f13f0f9d8c9f010b3780af3ee"
         },
         "sm-plugin": {
-            "pointer": "https://github.com/sourcemint/sm-plugin/commit/91eee0baa3630a0164c9b8b17b86e9b1d3acd038"
+            "archive": "https://github.com/sourcemint/sm-plugin/tarball/91eee0baa3630a0164c9b8b17b86e9b1d3acd038"
         },
         "sm-plugin/sm-plugin-7zip": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-7zip/commit/e78534f40debe371e9dddf4ba16ab5396412c86d"
+            "archive": "https://github.com/sourcemint/sm-plugin-7zip/tarball/e78534f40debe371e9dddf4ba16ab5396412c86d"
         },
         "sm-plugin/sm-plugin-7zip/p7zip": {
-            "pointer": "http://downloads.sourceforge.net/project/p7zip/p7zip/9.20.1/p7zip_9.20.1_src_all.tar.bz2"
+            "archive": "http://downloads.sourceforge.net/project/p7zip/p7zip/9.20.1/p7zip_9.20.1_src_all.tar.bz2"
         },
         "sm-plugin/sm-plugin-archive": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-archive/commit/efb7b70fcb629df9d2f073b07bdaebcf438875b1"
+            "archive": "https://github.com/sourcemint/sm-plugin-archive/tarball/117f08203ad8c1716b13ddca3b0c2fbb9342f02e"
         },
         "sm-plugin/sm-plugin-bzip": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-bzip/commit/a271470512e8c3960db1fd1df1240dc320ab9c60"
+            "archive": "https://github.com/sourcemint/sm-plugin-bzip/tarball/a271470512e8c3960db1fd1df1240dc320ab9c60"
         },
         "sm-plugin/sm-plugin-dmg": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-dmg/commit/cf01512a55c95f6987124ac34a409152c583bdbb"
+            "archive": "https://github.com/sourcemint/sm-plugin-dmg/tarball/9cd1045c2192da6ef9ed9847008c757e33196705"
         },
         "sm-plugin/sm-plugin-dotcloud": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-dotcloud/commit/0.1.0"
+            "archive": "https://github.com/sourcemint/sm-plugin-dotcloud/tarball/0.1.0"
         },
         "sm-plugin/sm-plugin-dotcloud/dotcloud": {
-            "pointer": "http://pypi.python.org/packages/source/d/dotcloud/dotcloud-0.9.4.tar.gz"
+            "archive": "http://pypi.python.org/packages/source/d/dotcloud/dotcloud-0.9.4.tar.gz"
         },
         "sm-plugin/sm-plugin-git": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-git/commit/1b04df49a74b7f42fd6e36bc55637bd5d8173aff"
+            "archive": "https://github.com/sourcemint/sm-plugin-git/tarball/1b04df49a74b7f42fd6e36bc55637bd5d8173aff"
         },
         "sm-plugin/sm-plugin-github": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-github/commit/aeeb8daa71abfb355ef6f2e16455af5073732398"
+            "archive": "https://github.com/sourcemint/sm-plugin-github/tarball/a7553e2a1825ff1cfa8ae0e80c18b364e1b83e00"
         },
         "sm-plugin/sm-plugin-github/github": {
-            "pointer": "https://github.com/sourcemint/node-github/commit/12a7e92af6a34c06f2e9bd8196100b259eae9199"
+            "archive": "https://github.com/sourcemint/node-github/tarball/12a7e92af6a34c06f2e9bd8196100b259eae9199"
         },
         "sm-plugin/sm-plugin-gzip": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-gzip/commit/d253679abda8ae084f91aa7b9eba7a3cd1116a6e"
+            "archive": "https://github.com/sourcemint/sm-plugin-gzip/tarball/d253679abda8ae084f91aa7b9eba7a3cd1116a6e"
         },
         "sm-plugin/sm-plugin-gzip/tar": {
-            "pointer": "http://registry.npmjs.org/tar/-/tar-0.1.14.tgz"
+            "archive": "http://registry.npmjs.org/tar/-/tar-0.1.14.tgz"
         },
         "sm-plugin/sm-plugin-gzip/tar/block-stream": {
-            "pointer": "http://registry.npmjs.org/block-stream/-/block-stream-0.0.6.tgz"
+            "archive": "http://registry.npmjs.org/block-stream/-/block-stream-0.0.6.tgz"
         },
         "sm-plugin/sm-plugin-gzip/tar/block-stream/inherits": {
-            "pointer": "http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz"
+            "archive": "http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz"
         },
         "sm-plugin/sm-plugin-gzip/tar/fstream": {
-            "pointer": "http://registry.npmjs.org/fstream/-/fstream-0.1.19.tgz"
+            "archive": "http://registry.npmjs.org/fstream/-/fstream-0.1.19.tgz"
         },
         "sm-plugin/sm-plugin-gzip/tar/fstream/graceful-fs": {
-            "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
+            "archive": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
         },
         "sm-plugin/sm-plugin-gzip/tar/fstream/inherits": {
-            "pointer": "http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz"
+            "archive": "http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz"
         },
         "sm-plugin/sm-plugin-gzip/tar/fstream/mkdirp": {
-            "pointer": "http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz"
+            "archive": "http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz"
         },
         "sm-plugin/sm-plugin-gzip/tar/fstream/rimraf": {
-            "pointer": "http://registry.npmjs.org/rimraf/-/rimraf-2.0.2.tgz"
+            "archive": "http://registry.npmjs.org/rimraf/-/rimraf-2.0.2.tgz"
         },
         "sm-plugin/sm-plugin-gzip/tar/fstream/rimraf/graceful-fs": {
-            "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
+            "archive": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
         },
         "sm-plugin/sm-plugin-gzip/tar/inherits": {
-            "pointer": "http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz"
+            "archive": "http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz"
         },
         "sm-plugin/sm-plugin-make": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-make/commit/cc0e06e411545414961645e50aaa04b3c1bae8d6"
+            "archive": "https://github.com/sourcemint/sm-plugin-make/tarball/cc0e06e411545414961645e50aaa04b3c1bae8d6"
         },
         "sm-plugin/sm-plugin-npm": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-npm/commit/64d3583e4b5a23c97b693c969009d4c13294d03a"
+            "archive": "https://github.com/sourcemint/sm-plugin-npm/tarball/3b20b5daff5d7d9701c72e275f5bf6190f1cc8c5"
         },
         "sm-plugin/sm-plugin-path": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-path/commit/fd99660a3abc6f518e257d33cb46ab600d2e2d28"
+            "archive": "https://github.com/sourcemint/sm-plugin-path/tarball/d42cd61bb26893e3087452e885606df484380a6a"
         },
         "sm-plugin/sm-plugin-pip": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-pip/commit/7d00b1574dd5824d233405ba747e4c843476f253"
+            "archive": "https://github.com/sourcemint/sm-plugin-pip/tarball/3bacee474d0a6929132c9b7a19d7e3402d3b82fe"
         },
         "sm-plugin/sm-plugin-pip/htmlparser": {
-            "pointer": "http://registry.npmjs.org/htmlparser/-/htmlparser-1.7.6.tgz"
+            "archive": "http://registry.npmjs.org/htmlparser/-/htmlparser-1.7.6.tgz"
         },
         "sm-plugin/sm-plugin-sm": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-sm/commit/2db20a8ef160a5637cb463fe6aee20666472eaf5"
+            "archive": "https://github.com/sourcemint/sm-plugin-sm/tarball/2db20a8ef160a5637cb463fe6aee20666472eaf5"
         },
         "sm-plugin/sm-plugin-sm/graceful-fs": {
-            "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
+            "archive": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul": {
-            "pointer": "http://registry.npmjs.org/istanbul/-/istanbul-0.1.27.tgz"
+            "archive": "http://registry.npmjs.org/istanbul/-/istanbul-0.1.27.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/abbrev": {
-            "pointer": "http://registry.npmjs.org/abbrev/-/abbrev-1.0.4.tgz"
+            "archive": "http://registry.npmjs.org/abbrev/-/abbrev-1.0.4.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/async": {
-            "pointer": "http://registry.npmjs.org/async/-/async-0.1.22.tgz"
+            "archive": "http://registry.npmjs.org/async/-/async-0.1.22.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/escodegen": {
-            "pointer": "http://registry.npmjs.org/escodegen/-/escodegen-0.0.15.tgz"
+            "archive": "http://registry.npmjs.org/escodegen/-/escodegen-0.0.15.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/escodegen/esprima": {
-            "pointer": "http://registry.npmjs.org/esprima/-/esprima-1.0.2.tgz"
+            "archive": "http://registry.npmjs.org/esprima/-/esprima-1.0.2.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/escodegen/source-map": {
-            "pointer": "http://registry.npmjs.org/source-map/-/source-map-0.1.8.tgz"
+            "archive": "http://registry.npmjs.org/source-map/-/source-map-0.1.8.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/escodegen/source-map/amdefine": {
-            "pointer": "http://registry.npmjs.org/amdefine/-/amdefine-0.0.4.tgz"
+            "archive": "http://registry.npmjs.org/amdefine/-/amdefine-0.0.4.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/esprima": {
-            "pointer": "http://registry.npmjs.org/esprima/-/esprima-1.0.2.tgz"
+            "archive": "http://registry.npmjs.org/esprima/-/esprima-1.0.2.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/fileset": {
-            "pointer": "http://registry.npmjs.org/fileset/-/fileset-0.1.4.tgz"
+            "archive": "http://registry.npmjs.org/fileset/-/fileset-0.1.4.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/fileset/glob": {
-            "pointer": "http://registry.npmjs.org/glob/-/glob-3.1.14.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/fileset/glob/fast-list": {
-            "pointer": "http://registry.npmjs.org/fast-list/-/fast-list-1.0.2.tgz"
+            "archive": "http://registry.npmjs.org/glob/-/glob-3.1.14.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/fileset/glob/graceful-fs": {
-            "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
+            "archive": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/fileset/glob/inherits": {
-            "pointer": "http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz"
+            "archive": "http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/fileset/glob/minimatch": {
-            "pointer": "http://registry.npmjs.org/minimatch/-/minimatch-0.2.9.tgz"
+            "archive": "http://registry.npmjs.org/minimatch/-/minimatch-0.2.9.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/fileset/minimatch": {
-            "pointer": "http://registry.npmjs.org/minimatch/-/minimatch-0.2.9.tgz"
+            "archive": "http://registry.npmjs.org/minimatch/-/minimatch-0.2.9.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/fileset/minimatch/lru-cache": {
-            "pointer": "http://registry.npmjs.org/lru-cache/-/lru-cache-2.0.4.tgz"
+            "archive": "http://registry.npmjs.org/lru-cache/-/lru-cache-2.0.4.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/fileset/minimatch/sigmund": {
-            "pointer": "http://registry.npmjs.org/sigmund/-/sigmund-1.0.0.tgz"
+            "archive": "http://registry.npmjs.org/sigmund/-/sigmund-1.0.0.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/handlebars": {
-            "pointer": "http://registry.npmjs.org/handlebars/-/handlebars-1.0.8.tgz"
+            "archive": "http://registry.npmjs.org/handlebars/-/handlebars-1.0.8.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/handlebars/optimist": {
-            "pointer": "http://registry.npmjs.org/optimist/-/optimist-0.3.5.tgz"
+            "archive": "http://registry.npmjs.org/optimist/-/optimist-0.3.5.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/handlebars/optimist/wordwrap": {
-            "pointer": "http://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz"
+            "archive": "http://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/handlebars/uglify-js": {
-            "pointer": "http://registry.npmjs.org/uglify-js/-/uglify-js-1.2.6.tgz"
+            "archive": "http://registry.npmjs.org/uglify-js/-/uglify-js-1.2.6.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/mkdirp": {
-            "pointer": "http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz"
+            "archive": "http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/nopt": {
-            "pointer": "http://registry.npmjs.org/nopt/-/nopt-2.0.0.tgz"
+            "archive": "http://registry.npmjs.org/nopt/-/nopt-2.0.0.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/nopt/abbrev": {
-            "pointer": "http://registry.npmjs.org/abbrev/-/abbrev-1.0.4.tgz"
+            "archive": "http://registry.npmjs.org/abbrev/-/abbrev-1.0.4.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/which": {
-            "pointer": "http://registry.npmjs.org/which/-/which-1.0.5.tgz"
+            "archive": "http://registry.npmjs.org/which/-/which-1.0.5.tgz"
         },
         "sm-plugin/sm-plugin-sm/istanbul/wordwrap": {
-            "pointer": "http://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz"
+            "archive": "http://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz"
         },
         "sm-plugin/sm-plugin-sm/knox": {
-            "pointer": "http://registry.npmjs.org/knox/-/knox-0.5.3.tgz"
+            "archive": "http://registry.npmjs.org/knox/-/knox-0.5.3.tgz"
         },
         "sm-plugin/sm-plugin-sm/knox/debug": {
-            "pointer": "http://registry.npmjs.org/debug/-/debug-0.7.2.tgz"
+            "archive": "http://registry.npmjs.org/debug/-/debug-0.7.2.tgz"
         },
         "sm-plugin/sm-plugin-sm/knox/mime": {
-            "pointer": "http://registry.npmjs.org/mime/-/mime-1.2.9.tgz"
+            "archive": "http://registry.npmjs.org/mime/-/mime-1.2.9.tgz"
         },
         "sm-plugin/sm-plugin-sm/knox/xml2js": {
-            "pointer": "http://registry.npmjs.org/xml2js/-/xml2js-0.2.4.tgz"
+            "archive": "http://registry.npmjs.org/xml2js/-/xml2js-0.2.4.tgz"
         },
         "sm-plugin/sm-plugin-sm/knox/xml2js/sax": {
-            "pointer": "http://registry.npmjs.org/sax/-/sax-0.5.1.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/ncp": {
-            "pointer": "http://registry.npmjs.org/ncp/-/ncp-0.2.6.tgz"
+            "archive": "http://registry.npmjs.org/sax/-/sax-0.5.1.tgz"
         },
         "sm-plugin/sm-plugin-stree": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-stree/commit/ed3d8cd871157137597a0ede526c92c741acbf96"
+            "archive": "https://github.com/sourcemint/sm-plugin-stree/tarball/ed3d8cd871157137597a0ede526c92c741acbf96"
         },
         "sm-plugin/sm-plugin-symlink": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-symlink/commit/971bdf687808ba7754c09e0eca0399d4a3747db1"
-        },
-        "sm-plugin/sm-plugin-tar": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-tar/commit/1cfd50b9fb75ece2811a21fe4aa8704b1f38f7d3"
-        },
-        "sm-plugin/sm-plugin-tar/tar": {
-            "pointer": "http://registry.npmjs.org/tar/-/tar-0.1.14.tgz"
-        },
-        "sm-plugin/sm-plugin-tar/tar/block-stream": {
-            "pointer": "http://registry.npmjs.org/block-stream/-/block-stream-0.0.6.tgz"
-        },
-        "sm-plugin/sm-plugin-tar/tar/block-stream/inherits": {
-            "pointer": "http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz"
-        },
-        "sm-plugin/sm-plugin-tar/tar/fstream": {
-            "pointer": "http://registry.npmjs.org/fstream/-/fstream-0.1.19.tgz"
-        },
-        "sm-plugin/sm-plugin-tar/tar/fstream/graceful-fs": {
-            "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
-        },
-        "sm-plugin/sm-plugin-tar/tar/fstream/inherits": {
-            "pointer": "http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz"
-        },
-        "sm-plugin/sm-plugin-tar/tar/fstream/mkdirp": {
-            "pointer": "http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz"
-        },
-        "sm-plugin/sm-plugin-tar/tar/fstream/rimraf": {
-            "pointer": "http://registry.npmjs.org/rimraf/-/rimraf-2.0.2.tgz"
-        },
-        "sm-plugin/sm-plugin-tar/tar/fstream/rimraf/graceful-fs": {
-            "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
-        },
-        "sm-plugin/sm-plugin-tar/tar/inherits": {
-            "pointer": "http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz"
+            "archive": "https://github.com/sourcemint/sm-plugin-symlink/tarball/016780f34ba550099d10c9484c1d69f99fadbcbc"
         },
         "sm-plugin/sm-plugin-url": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-url/commit/db675332b40e9e31fa374df80c1a43cae89c844b"
+            "archive": "https://github.com/sourcemint/sm-plugin-url/tarball/d5dd34a47e330bc5579d956aa72534baaffbb94e"
         },
         "sm-plugin/sm-plugin-zip": {
-            "pointer": "https://github.com/sourcemint/sm-plugin-zip/commit/0901feb40e71b85ebbb041b23fe16faba3a5fd53"
+            "archive": "https://github.com/sourcemint/sm-plugin-zip/tarball/0901feb40e71b85ebbb041b23fe16faba3a5fd53"
         },
         "sm-util": {
-            "pointer": "https://github.com/sourcemint/sm-util/commit/8ebc79df8d4349786eb16fb4883bd4129b30bb65"
+            "archive": "https://github.com/sourcemint/sm-util/tarball/77dcfecbb9c25e7f13f0f9d8c9f010b3780af3ee"
         },
         "sm-util/console-trace": {
-            "pointer": "http://registry.npmjs.org/console-trace/-/console-trace-0.2.1.tgz"
+            "archive": "http://registry.npmjs.org/console-trace/-/console-trace-0.2.1.tgz"
         },
         "sm-util/console-trace/callsite": {
-            "pointer": "http://registry.npmjs.org/callsite/-/callsite-0.0.2.tgz"
+            "archive": "http://registry.npmjs.org/callsite/-/callsite-0.0.2.tgz"
         },
         "sm-util/deepmerge": {
-            "pointer": "http://registry.npmjs.org/deepmerge/-/deepmerge-0.2.5.tgz"
+            "archive": "http://registry.npmjs.org/deepmerge/-/deepmerge-0.2.5.tgz"
         },
         "sm-util/fs-extra": {
-            "pointer": "http://registry.npmjs.org/fs-extra/-/fs-extra-0.5.0.tgz"
+            "archive": "http://registry.npmjs.org/fs-extra/-/fs-extra-0.5.0.tgz"
         },
         "sm-util/fs-extra/jsonfile": {
-            "pointer": "http://registry.npmjs.org/jsonfile/-/jsonfile-0.0.1.tgz"
+            "archive": "http://registry.npmjs.org/jsonfile/-/jsonfile-0.0.1.tgz"
         },
         "sm-util/fs-extra/mkdirp": {
-            "pointer": "http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz"
+            "archive": "http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz"
         },
         "sm-util/fs-extra/ncp": {
-            "pointer": "http://registry.npmjs.org/ncp/-/ncp-0.2.6.tgz"
+            "archive": "http://registry.npmjs.org/ncp/-/ncp-0.2.6.tgz"
         },
         "sm-util/fs-extra/rimraf": {
-            "pointer": "http://registry.npmjs.org/rimraf/-/rimraf-2.1.4.tgz"
+            "archive": "http://registry.npmjs.org/rimraf/-/rimraf-2.1.4.tgz"
         },
         "sm-util/fs-extra/rimraf/graceful-fs": {
-            "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.2.0.tgz"
+            "archive": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.2.0.tgz"
         },
         "sm-util/glob": {
-            "pointer": "http://registry.npmjs.org/glob/-/glob-3.1.16.tgz"
+            "archive": "http://registry.npmjs.org/glob/-/glob-3.1.16.tgz"
         },
         "sm-util/glob/graceful-fs": {
-            "pointer": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
+            "archive": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
         },
         "sm-util/glob/inherits": {
-            "pointer": "http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz"
+            "archive": "http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz"
         },
         "sm-util/glob/minimatch": {
-            "pointer": "http://registry.npmjs.org/minimatch/-/minimatch-0.2.9.tgz"
+            "archive": "http://registry.npmjs.org/minimatch/-/minimatch-0.2.9.tgz"
         },
         "sm-util/glob/minimatch/lru-cache": {
-            "pointer": "http://registry.npmjs.org/lru-cache/-/lru-cache-2.0.4.tgz"
+            "archive": "http://registry.npmjs.org/lru-cache/-/lru-cache-2.0.4.tgz"
         },
         "sm-util/glob/minimatch/sigmund": {
-            "pointer": "http://registry.npmjs.org/sigmund/-/sigmund-1.0.0.tgz"
+            "archive": "http://registry.npmjs.org/sigmund/-/sigmund-1.0.0.tgz"
         },
         "sm-util/longjohn": {
-            "pointer": "http://registry.npmjs.org/longjohn/-/longjohn-0.0.4.tgz"
+            "archive": "http://registry.npmjs.org/longjohn/-/longjohn-0.0.4.tgz"
         },
         "sm-util/n-util": {
-            "pointer": "http://registry.npmjs.org/n-util/-/n-util-0.0.1.tgz"
+            "archive": "http://registry.npmjs.org/n-util/-/n-util-0.0.1.tgz"
         },
         "sm-util/netutil": {
-            "pointer": "http://registry.npmjs.org/netutil/-/netutil-0.0.1.tgz"
+            "archive": "http://registry.npmjs.org/netutil/-/netutil-0.0.1.tgz"
         },
         "sm-util/q": {
-            "pointer": "http://registry.npmjs.org/q/-/q-0.8.12.tgz"
+            "archive": "http://registry.npmjs.org/q/-/q-0.8.12.tgz"
         },
         "sm-util/stack-trace": {
-            "pointer": "http://registry.npmjs.org/stack-trace/-/stack-trace-0.0.6.tgz"
+            "archive": "http://registry.npmjs.org/stack-trace/-/stack-trace-0.0.6.tgz"
         },
         "sm-util/tunnel": {
-            "pointer": "http://registry.npmjs.org/tunnel/-/tunnel-0.0.2.tgz"
+            "archive": "http://registry.npmjs.org/tunnel/-/tunnel-0.0.2.tgz"
         },
         "sm-util/waitfor": {
-            "pointer": "http://registry.npmjs.org/waitfor/-/waitfor-0.1.1.tgz"
+            "archive": "http://registry.npmjs.org/waitfor/-/waitfor-0.1.1.tgz"
         },
         "sm-util/wrench": {
-            "pointer": "http://registry.npmjs.org/wrench/-/wrench-1.4.4.tgz"
+            "archive": "http://registry.npmjs.org/wrench/-/wrench-1.4.4.tgz"
         },
         "winston": {
-            "pointer": "http://registry.npmjs.org/winston/-/winston-0.6.2.tgz"
+            "archive": "http://registry.npmjs.org/winston/-/winston-0.6.2.tgz"
         },
         "winston/async": {
-            "pointer": "http://registry.npmjs.org/async/-/async-0.1.22.tgz"
+            "archive": "http://registry.npmjs.org/async/-/async-0.1.22.tgz"
         },
         "winston/colors": {
-            "pointer": "http://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz"
+            "archive": "http://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz"
         },
         "winston/cycle": {
-            "pointer": "http://registry.npmjs.org/cycle/-/cycle-1.0.1.tgz"
+            "archive": "http://registry.npmjs.org/cycle/-/cycle-1.0.1.tgz"
         },
         "winston/eyes": {
-            "pointer": "http://registry.npmjs.org/eyes/-/eyes-0.1.8.tgz"
+            "archive": "http://registry.npmjs.org/eyes/-/eyes-0.1.8.tgz"
         },
         "winston/pkginfo": {
-            "pointer": "http://registry.npmjs.org/pkginfo/-/pkginfo-0.2.3.tgz"
+            "archive": "http://registry.npmjs.org/pkginfo/-/pkginfo-0.2.3.tgz"
         },
         "winston/request": {
-            "pointer": "http://registry.npmjs.org/request/-/request-2.9.203.tgz"
+            "archive": "http://registry.npmjs.org/request/-/request-2.9.203.tgz"
         },
         "winston/stack-trace": {
-            "pointer": "http://registry.npmjs.org/stack-trace/-/stack-trace-0.0.6.tgz"
+            "archive": "http://registry.npmjs.org/stack-trace/-/stack-trace-0.0.6.tgz"
         }
     }
 }
