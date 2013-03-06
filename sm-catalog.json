@@ -116,7 +116,7 @@
             "archive": "http://downloads.sourceforge.net/project/p7zip/p7zip/9.20.1/p7zip_9.20.1_src_all.tar.bz2"
         },
         "sm-plugin/sm-plugin-archive": {
-            "archive": "https://github.com/sourcemint/sm-plugin-archive/tarball/3cbc30688eab6af74e510bb0793c10f0de8285de"
+            "archive": "https://github.com/sourcemint/sm-plugin-archive/tarball/1657b6e91cd13bd01eed68f9b8af15a03d6cb0ed"
         },
         "sm-plugin/sm-plugin-bzip": {
             "archive": "https://github.com/sourcemint/sm-plugin-bzip/tarball/a271470512e8c3960db1fd1df1240dc320ab9c60"
@@ -188,7 +188,7 @@
             "archive": "http://registry.npmjs.org/htmlparser/-/htmlparser-1.7.6.tgz"
         },
         "sm-plugin/sm-plugin-sm": {
-            "archive": "https://github.com/sourcemint/sm-plugin-sm/tarball/b6bf4009b87116e4ea2b4d76af6661a63e4ef8af"
+            "archive": "https://github.com/sourcemint/sm-plugin-sm/tarball/718b26f735f79aaa1c64825f1ebde19ebfb3471d"
         },
         "sm-plugin/sm-plugin-sm/graceful-fs": {
             "archive": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
@@ -287,7 +287,7 @@
             "archive": "https://github.com/sourcemint/sm-plugin-stree/tarball/ed3d8cd871157137597a0ede526c92c741acbf96"
         },
         "sm-plugin/sm-plugin-symlink": {
-            "archive": "https://github.com/sourcemint/sm-plugin-symlink/tarball/016780f34ba550099d10c9484c1d69f99fadbcbc"
+            "archive": "https://github.com/sourcemint/sm-plugin-symlink/tarball/e134a98f93dc319f70dbb43a1d59b7e9b37c8fb0"
         },
         "sm-plugin/sm-plugin-url": {
             "archive": "https://github.com/sourcemint/sm-plugin-url/tarball/d5dd34a47e330bc5579d956aa72534baaffbb94e"
