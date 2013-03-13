@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Keep track of where our original binary is called from.
-export SM_BIN_PATH="$(cd "$(dirname "$0")"; pwd)/$(basename "$0")"
+OUR_SM_BIN_PATH="$(cd "$(dirname "$0")"; pwd)/$(basename "$0")"
+SM_BIN_PATH="${SM_BIN_PATH:=$OUR_SM_BIN_PATH}"
+export SM_BIN_PATH
 
 # Find the dirname path to the fully resolved command in order to locate entry point for sm codebase.
 # @credit http://stackoverflow.com/a/246128/330439
