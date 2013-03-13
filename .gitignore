@@ -1,3 +1,5 @@
+.DS_Store
+.sm*
 /dist/brew/node_modules/
 /dist/source/
 /dist/npm/
