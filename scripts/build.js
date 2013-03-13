@@ -60,12 +60,6 @@ exports.main = function(callback) {
 				FS.copy(sourcePath, npmPath, function(err) {
 					if (err) return callback(err);
 
-					var descriptor = JSON.parse(FS.readFileSync(PATH.join(npmPath, "package.json")));
-					// We don't want NPM to put `sm` on the `PATH` as that usually results in errors during install.
-					// TODO: Update this only for `dist/npm`.
-					delete descriptor.bin;
-
-		            FS.writeFileSync(PATH.join(npmPath, "package.json"), JSON.stringify(descriptor, null, 4));					
 		            FS.writeFileSync(PATH.join(npmPath, ".npmignore"), [
 		            	".sm/"
 		            ].join("\n"));
@@ -95,6 +89,15 @@ exports.main = function(callback) {
 							var descriptor = JSON.parse(FS.readFileSync(PATH.join(smPath, "package.json")));
 							descriptor.pm = "sm";
 				            FS.writeFileSync(PATH.join(smPath, "package.json"), JSON.stringify(descriptor, null, 4));
+
+
+							var descriptor = JSON.parse(FS.readFileSync(PATH.join(npmPath, "package.json")));
+							// We don't want NPM to put `sm` on the `PATH` as that usually results in errors during install.
+							// TODO: Does this work properly now even when using `-g`?
+							delete descriptor.bin;
+				            FS.writeFileSync(PATH.join(npmPath, "package.json"), JSON.stringify(descriptor, null, 4));					
+
+
 							return callback(null);
 						});
 //					}, callback);
