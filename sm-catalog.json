@@ -29,7 +29,7 @@
             "archive": "https://github.com/sourcemint/sm-mappings-npm/tarball/2e293efc9b50c9ea60521cfdc811eb79ed538f2f"
         },
         "ncp": {
-            "archive": "http://registry.npmjs.org/ncp/-/ncp-0.2.6.tgz"
+            "archive": "http://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz"
         },
         "pinf": {
             "archive": "https://github.com/sourcemint/sm-pinf-npm/tarball/67f33583ca2bfa21d82e518a08074e48217ffa85"
@@ -47,7 +47,7 @@
             "archive": "http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz"
         },
         "pinf/fs-extra/ncp": {
-            "archive": "http://registry.npmjs.org/ncp/-/ncp-0.2.6.tgz"
+            "archive": "http://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz"
         },
         "pinf/fs-extra/rimraf": {
             "archive": "http://registry.npmjs.org/rimraf/-/rimraf-2.0.3.tgz"
@@ -71,10 +71,10 @@
             "archive": "http://registry.npmjs.org/underscore/-/underscore-1.1.7.tgz"
         },
         "pinf/mappings": {
-            "archive": "http://registry.npmjs.org/mappings/-/mappings-0.2.1.tgz"
+            "archive": "https://github.com/sourcemint/sm-mappings-npm/tarball/2e293efc9b50c9ea60521cfdc811eb79ed538f2f"
         },
         "pinf/sm-util": {
-            "archive": "http://registry.npmjs.org/sm-util/-/sm-util-0.1.11.tgz"
+            "archive": "https://github.com/sourcemint/sm-util/tarball/1b51d2c504b4ada04c78fd7a90b49226228479f7"
         },
         "semver": {
             "archive": "http://registry.npmjs.org/semver/-/semver-1.1.0.tgz"
@@ -104,10 +104,10 @@
             "archive": "http://registry.npmjs.org/mime/-/mime-1.2.7.tgz"
         },
         "sm-node-server/sm-util": {
-            "archive": "https://github.com/sourcemint/sm-util/tarball/77dcfecbb9c25e7f13f0f9d8c9f010b3780af3ee"
+            "archive": "https://github.com/sourcemint/sm-util/tarball/1b51d2c504b4ada04c78fd7a90b49226228479f7"
         },
         "sm-plugin": {
-            "archive": "https://github.com/sourcemint/sm-plugin/tarball/e7f2d3248e6859b02b001d9628e66cf20bf52a7a"
+            "archive": "https://github.com/sourcemint/sm-plugin/tarball/817cf89232b997d18442d46ee8a51613b5439de2"
         },
         "sm-plugin/sm-plugin-7zip": {
             "archive": "https://github.com/sourcemint/sm-plugin-7zip/tarball/e78534f40debe371e9dddf4ba16ab5396412c86d"
@@ -131,13 +131,13 @@
             "archive": "http://pypi.python.org/packages/source/d/dotcloud/dotcloud-0.9.4.tar.gz"
         },
         "sm-plugin/sm-plugin-git": {
-            "archive": "https://github.com/sourcemint/sm-plugin-git/tarball/d552624e5427dd221e9bbc2a6cbcc1fe4654f050"
+            "archive": "https://github.com/sourcemint/sm-plugin-git/tarball/a88bdffd07593da47e7e1758e789fafaf2cf4160"
         },
         "sm-plugin/sm-plugin-github": {
-            "archive": "https://github.com/sourcemint/sm-plugin-github/tarball/7128be0926019d68223a9369ff47ae058aa52267"
+            "archive": "https://github.com/sourcemint/sm-plugin-github/tarball/b7a026b8329445719f1ebda41c56efd8caa844db"
         },
         "sm-plugin/sm-plugin-github/github": {
-            "archive": "https://github.com/sourcemint/node-github/tarball/12a7e92af6a34c06f2e9bd8196100b259eae9199"
+            "archive": "https://github.com/sourcemint/node-github/tarball/999f198564f25b350183f3041d6aa8da2398ff46"
         },
         "sm-plugin/sm-plugin-gzip": {
             "archive": "https://github.com/sourcemint/sm-plugin-gzip/tarball/d253679abda8ae084f91aa7b9eba7a3cd1116a6e"
@@ -188,7 +188,7 @@
             "archive": "http://registry.npmjs.org/htmlparser/-/htmlparser-1.7.6.tgz"
         },
         "sm-plugin/sm-plugin-sm": {
-            "archive": "https://github.com/sourcemint/sm-plugin-sm/tarball/718b26f735f79aaa1c64825f1ebde19ebfb3471d"
+            "archive": "https://github.com/sourcemint/sm-plugin-sm/tarball/6520c4d279cdcdb82e87d840e9d7bb896b4d6837"
         },
         "sm-plugin/sm-plugin-sm/graceful-fs": {
             "archive": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
@@ -317,7 +317,7 @@
             "archive": "http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz"
         },
         "sm-util/fs-extra/ncp": {
-            "archive": "http://registry.npmjs.org/ncp/-/ncp-0.2.6.tgz"
+            "archive": "http://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz"
         },
         "sm-util/fs-extra/rimraf": {
             "archive": "http://registry.npmjs.org/rimraf/-/rimraf-2.1.4.tgz"
