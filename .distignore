@@ -17,6 +17,8 @@ test/
 tests/
 /node_modules/*/bin/
 /node_modules/sm-plugin/node_modules/sm-plugin-7zip/
+/node_modules/sm-plugin/node_modules/sm-plugin-pip/
+/node_modules/sm-plugin/node_modules/sm-plugin-dotcloud/
 tmp/
 .tmp/
 benchmarks/
