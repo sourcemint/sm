@@ -74,7 +74,7 @@
             "archive": "https://github.com/sourcemint/sm-mappings-npm/tarball/2e293efc9b50c9ea60521cfdc811eb79ed538f2f"
         },
         "pinf/sm-util": {
-            "archive": "https://github.com/sourcemint/sm-util/tarball/1b51d2c504b4ada04c78fd7a90b49226228479f7"
+            "archive": "https://github.com/sourcemint/sm-util/tarball/973dfa49076618d5e918b98a2497390b40c6f4ee"
         },
         "semver": {
             "archive": "http://registry.npmjs.org/semver/-/semver-1.1.0.tgz"
@@ -104,7 +104,7 @@
             "archive": "http://registry.npmjs.org/mime/-/mime-1.2.7.tgz"
         },
         "sm-node-server/sm-util": {
-            "archive": "https://github.com/sourcemint/sm-util/tarball/1b51d2c504b4ada04c78fd7a90b49226228479f7"
+            "archive": "https://github.com/sourcemint/sm-util/tarball/973dfa49076618d5e918b98a2497390b40c6f4ee"
         },
         "sm-plugin": {
             "archive": "https://github.com/sourcemint/sm-plugin/tarball/817cf89232b997d18442d46ee8a51613b5439de2"
@@ -188,7 +188,7 @@
             "archive": "http://registry.npmjs.org/htmlparser/-/htmlparser-1.7.6.tgz"
         },
         "sm-plugin/sm-plugin-sm": {
-            "archive": "https://github.com/sourcemint/sm-plugin-sm/tarball/6520c4d279cdcdb82e87d840e9d7bb896b4d6837"
+            "archive": "https://github.com/sourcemint/sm-plugin-sm/tarball/e3e39099fe3dd6a313241f0d10de9c37761ed03d"
         },
         "sm-plugin/sm-plugin-sm/graceful-fs": {
             "archive": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
@@ -296,7 +296,7 @@
             "archive": "https://github.com/sourcemint/sm-plugin-zip/tarball/0901feb40e71b85ebbb041b23fe16faba3a5fd53"
         },
         "sm-util": {
-            "archive": "https://github.com/sourcemint/sm-util/tarball/1b51d2c504b4ada04c78fd7a90b49226228479f7"
+            "archive": "https://github.com/sourcemint/sm-util/tarball/973dfa49076618d5e918b98a2497390b40c6f4ee"
         },
         "sm-util/console-trace": {
             "archive": "http://registry.npmjs.org/console-trace/-/console-trace-0.2.1.tgz"
