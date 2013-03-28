@@ -32,28 +32,7 @@
             "archive": "http://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz"
         },
         "pinf": {
-            "archive": "https://github.com/sourcemint/sm-pinf-npm/tarball/dbb60476230ec2ad619b684cda89a870cf8163d8"
-        },
-        "pinf/deepmerge": {
-            "archive": "http://registry.npmjs.org/deepmerge/-/deepmerge-0.2.5.tgz"
-        },
-        "pinf/fs-extra": {
-            "archive": "http://registry.npmjs.org/fs-extra/-/fs-extra-0.3.2.tgz"
-        },
-        "pinf/fs-extra/jsonfile": {
-            "archive": "http://registry.npmjs.org/jsonfile/-/jsonfile-0.0.1.tgz"
-        },
-        "pinf/fs-extra/mkdirp": {
-            "archive": "http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz"
-        },
-        "pinf/fs-extra/ncp": {
-            "archive": "http://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz"
-        },
-        "pinf/fs-extra/rimraf": {
-            "archive": "http://registry.npmjs.org/rimraf/-/rimraf-2.0.3.tgz"
-        },
-        "pinf/fs-extra/rimraf/graceful-fs": {
-            "archive": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
+            "archive": "https://github.com/sourcemint/sm-pinf-npm/tarball/f38a8b29cdf4ce365805febc14e7ae03b569dcea"
         },
         "pinf/jsonlint": {
             "archive": "http://registry.npmjs.org/jsonlint/-/jsonlint-1.5.1.tgz"
