@@ -269,10 +269,10 @@
             "archive": "http://pypi.python.org/packages/source/d/dotcloud/dotcloud-0.9.4.tar.gz"
         },
         "sm-plugin/sm-plugin-git": {
-            "archive": "https://github.com/sourcemint/sm-plugin-git/tarball/a88bdffd07593da47e7e1758e789fafaf2cf4160"
+            "archive": "https://github.com/sourcemint/sm-plugin-git/tarball/7d9cd14f0e08c0c5f98a33bf8ab62e34860c191c"
         },
         "sm-plugin/sm-plugin-github": {
-            "archive": "https://github.com/sourcemint/sm-plugin-github/tarball/b7a026b8329445719f1ebda41c56efd8caa844db"
+            "archive": "https://github.com/sourcemint/sm-plugin-github/tarball/395a986413afd2ae77b084ddb2e1bced01391f31"
         },
         "sm-plugin/sm-plugin-github/github": {
             "archive": "https://github.com/sourcemint/node-github/tarball/999f198564f25b350183f3041d6aa8da2398ff46"
@@ -326,85 +326,10 @@
             "archive": "http://registry.npmjs.org/htmlparser/-/htmlparser-1.7.6.tgz"
         },
         "sm-plugin/sm-plugin-sm": {
-            "archive": "https://github.com/sourcemint/sm-plugin-sm/tarball/e7c480362193ab979229a1a9b44dce140074ad31"
+            "archive": "https://github.com/sourcemint/sm-plugin-sm/tarball/c31f0759db967d0707dbcb3d23bff2bd1823843b"
         },
         "sm-plugin/sm-plugin-sm/graceful-fs": {
             "archive": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul": {
-            "archive": "http://registry.npmjs.org/istanbul/-/istanbul-0.1.27.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/abbrev": {
-            "archive": "http://registry.npmjs.org/abbrev/-/abbrev-1.0.4.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/async": {
-            "archive": "http://registry.npmjs.org/async/-/async-0.1.22.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/escodegen": {
-            "archive": "http://registry.npmjs.org/escodegen/-/escodegen-0.0.15.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/escodegen/esprima": {
-            "archive": "http://registry.npmjs.org/esprima/-/esprima-1.0.2.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/escodegen/source-map": {
-            "archive": "http://registry.npmjs.org/source-map/-/source-map-0.1.8.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/escodegen/source-map/amdefine": {
-            "archive": "http://registry.npmjs.org/amdefine/-/amdefine-0.0.4.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/esprima": {
-            "archive": "http://registry.npmjs.org/esprima/-/esprima-1.0.2.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/fileset": {
-            "archive": "http://registry.npmjs.org/fileset/-/fileset-0.1.4.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/fileset/glob": {
-            "archive": "http://registry.npmjs.org/glob/-/glob-3.1.14.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/fileset/glob/graceful-fs": {
-            "archive": "http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.14.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/fileset/glob/inherits": {
-            "archive": "http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/fileset/glob/minimatch": {
-            "archive": "http://registry.npmjs.org/minimatch/-/minimatch-0.2.9.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/fileset/minimatch": {
-            "archive": "http://registry.npmjs.org/minimatch/-/minimatch-0.2.9.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/fileset/minimatch/lru-cache": {
-            "archive": "http://registry.npmjs.org/lru-cache/-/lru-cache-2.0.4.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/fileset/minimatch/sigmund": {
-            "archive": "http://registry.npmjs.org/sigmund/-/sigmund-1.0.0.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/handlebars": {
-            "archive": "http://registry.npmjs.org/handlebars/-/handlebars-1.0.8.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/handlebars/optimist": {
-            "archive": "http://registry.npmjs.org/optimist/-/optimist-0.3.5.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/handlebars/optimist/wordwrap": {
-            "archive": "http://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/handlebars/uglify-js": {
-            "archive": "http://registry.npmjs.org/uglify-js/-/uglify-js-1.2.6.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/mkdirp": {
-            "archive": "http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/nopt": {
-            "archive": "http://registry.npmjs.org/nopt/-/nopt-2.0.0.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/nopt/abbrev": {
-            "archive": "http://registry.npmjs.org/abbrev/-/abbrev-1.0.4.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/which": {
-            "archive": "http://registry.npmjs.org/which/-/which-1.0.5.tgz"
-        },
-        "sm-plugin/sm-plugin-sm/istanbul/wordwrap": {
-            "archive": "http://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz"
         },
         "sm-plugin/sm-plugin-sm/knox": {
             "archive": "http://registry.npmjs.org/knox/-/knox-0.5.3.tgz"
