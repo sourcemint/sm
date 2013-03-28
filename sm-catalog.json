@@ -74,7 +74,7 @@
             "archive": "https://github.com/sourcemint/sm-mappings-npm/tarball/2e293efc9b50c9ea60521cfdc811eb79ed538f2f"
         },
         "pinf/sm-util": {
-            "archive": "https://github.com/sourcemint/sm-util/tarball/973dfa49076618d5e918b98a2497390b40c6f4ee"
+            "archive": "https://github.com/sourcemint/sm-util/tarball/371a3ce14a2834efffc4d75a1f0861461a5437fa"
         },
         "pinf/sm-util/console-trace": {
             "archive": "http://registry.npmjs.org/console-trace/-/console-trace-0.2.1.tgz"
@@ -434,7 +434,7 @@
             "archive": "https://github.com/sourcemint/sm-plugin-zip/tarball/0901feb40e71b85ebbb041b23fe16faba3a5fd53"
         },
         "sm-util": {
-            "archive": "https://github.com/sourcemint/sm-util/tarball/973dfa49076618d5e918b98a2497390b40c6f4ee"
+            "archive": "https://github.com/sourcemint/sm-util/tarball/371a3ce14a2834efffc4d75a1f0861461a5437fa"
         },
         "sm-util/console-trace": {
             "archive": "http://registry.npmjs.org/console-trace/-/console-trace-0.2.1.tgz"
