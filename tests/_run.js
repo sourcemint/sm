@@ -7,35 +7,62 @@ const FS = require("sm-util/lib/fs");
 const CONSOLE = require("sm-util/lib/console");
 const ERROR = require("sm-util/lib/error");
 const UTIL = require("sm-util/lib/util");
+const SM = require("..");
 // @see https://github.com/visionmedia/mocha/wiki/Using-mocha-programmatically
-const MOCHA = require("mocha");
-const CHAI = require("chai");
-
+var MOCHA = null;
+var CHAI = null;
+function requireTestModules(callback) {
+	MOCHA = require("mocha");
+	CHAI = require("chai");
+	return callback(null);
+}
 
 
 exports.main = function(callback) {
 	try {
 
-    	if (!FS.existsSync(PATH.join(__dirname, "tmp"))) {
-    		FS.mkdirSync(PATH.join(__dirname, "tmp"));
-    	}
+		function ensureTestDependencies(callback) {
+			if (FS.existsSync(PATH.join(__dirname, "node_modules"))) {
+				return requireTestModules(callback);
+			}
+			return SM.for(__dirname).install(function(err) {
+				if (err) return callback(err);
+				return requireTestModules(callback);
+			});
+		}
 
-		CHAI.Assertion.includeStack = true;
+		return ensureTestDependencies(function(err) {
+			if (err) return callback(err);
 
-		// TODO: Set filter to not show info for certain files.
-		CONSOLE.enableFileLineInfo();
+	    	if (!FS.existsSync(PATH.join(__dirname, "tmp"))) {
+	    		FS.mkdirSync(PATH.join(__dirname, "tmp"));
+	    	}
 
-		var mocha = new MOCHA({
-			timeout: 2000
+			CHAI.Assertion.includeStack = true;
+
+			// TODO: Set filter to not show info for certain files.
+			CONSOLE.enableFileLineInfo();
+
+			var mocha = new MOCHA({
+				timeout: 2000
+			});
+			mocha.suite._bail = true;
+
+			var testFileRe = /^[^_].*\.js$/;
+			var filterIndex = process.argv.indexOf("--filter");
+			if (filterIndex !== -1) {
+				testFileRe = new RegExp(process.argv[filterIndex + 1]);
+			}
+
+			FS.readdirSync(__dirname).filter(function(filename) {
+				return testFileRe.test(filename);
+			}).forEach(function(filename) {
+			    mocha.addFile(PATH.join(__dirname, filename));
+			});
+			mocha.run(callback);
+
 		});
-		mocha.suite._bail = true;
-		var testFileRe = /^[^_].*\.js$/;
-		FS.readdirSync(__dirname).filter(function(filename) {
-			return testFileRe.test(filename);
-		}).forEach(function(filename) {
-		    mocha.addFile(PATH.join(__dirname, filename));
-		});
-		mocha.run(callback);
+
 	} catch(err) {
 		return callback(err);
 	}
