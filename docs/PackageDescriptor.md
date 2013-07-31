@@ -90,3 +90,11 @@ Used to display help information for a package when user calls `sm help`.
   * `help: "<uri>"` will be converted to `help: { web: "<uri>" }`.
   * `help.cli` must point to JS module within package. Module must export `main(API)` where
     `API.TERM.stdout` may be used to write to console.
+
+
+Notes
+=====
+
+  * `$__DIRNAME` is replaced with the absolute realpath to the directory representing the root of the package.
+
+  
