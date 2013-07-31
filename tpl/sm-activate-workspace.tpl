@@ -35,6 +35,7 @@ if [ "$#" -lt 1 ]; then
     export SM_WORKSPACE_HOME=__SM_WORKSPACE_HOME__
     export PATH=$SM_WORKSPACE_HOME/bin:$SM_WORKSPACE_HOME/.sm/bin:$PATH
     export PS1="\e[00;35msm[\e[00;33m__SM_WORKSPACE_NAME__\e[00;35m]:\e[m "
+    ___EXTRA_COMMANDS___
     cd "$SM_WORKSPACE_HOME"
     echo "[sm] Activating workspace: $SM_WORKSPACE_HOME"
     if [ -f ".sm/.switch" ]; then
