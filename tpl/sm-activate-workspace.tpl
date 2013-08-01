@@ -34,7 +34,7 @@ if [ "$#" -lt 1 ]; then
     export PINF_RUNTIME=__PINF_RUNTIME__
     export PINF_MODE=__PINF_MODE__
     export SM_WORKSPACE_HOME=__SM_WORKSPACE_HOME__
-    export PATH=$SM_WORKSPACE_HOME/bin:$SM_WORKSPACE_HOME/.sm/bin:$PATH
+    export PATH=$SM_WORKSPACE_HOME/bin:$SM_WORKSPACE_HOME/.sm/bin:__PINF_PARENT_PATH__$PATH
     export PS1="\e[00;35msm[\e[00;33m__SM_WORKSPACE_NAME__\e[00;35m]:\e[m "
     ___EXTRA_COMMANDS___
     cd "$SM_WORKSPACE_HOME"
