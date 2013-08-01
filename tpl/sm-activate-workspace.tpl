@@ -28,6 +28,7 @@ if [ "$#" -lt 1 ]; then
     # TODO: Make this work on all terminals and platforms.
     # TODO: Display 'uid' instead of 'name'.
     export SM_HOME=__SM_HOME__
+    export SM_BIN_PATH=__SM_BIN_PATH__
     export PINF_PROGRAM=__PINF_PROGRAM__
     export PINF_PACKAGE=__PINF_PACKAGE__
     export PINF_RUNTIME=__PINF_RUNTIME__
